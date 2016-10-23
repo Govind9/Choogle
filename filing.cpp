@@ -4,14 +4,77 @@ vector <struct File> Files;
 
 long int previous_index_time = 0; //should be set at the time of indexing and stored in some file for retrieval
 
-void index(string word)
+map <string, Occurence> word_hash;
+
+inline bool is_not_a_word(string word)
 {
-	cout << word << endl;
+	if (word.length() < 2)
+		return true;
+	return false;
+}
+
+bool is_a_stop_word(string word)
+{
+	ifstream file("stopword.txt");
+	char c;
+	string str = "";
+	while (file.get(c)) {
+		if (c == ' ') {
+			if (str == word)
+				return true;
+			str = "";
+		}
+		str += c;
+	}
+	file.close();
+	return false;
+}
+
+inline string to_string(int i)
+{
+	stringstream convert;
+	convert << i;
+	return convert.str();
+}
+
+void display_index()
+{
+	typedef map<string, Occurence>::iterator ITR;
+	typedef map<struct File*, int>::iterator itr;
+
+	for (ITR i = word_hash.begin(); i != word_hash.end(); ++i) {
+		cout << i->first << " : ";
+		for (itr j = i->second.count_hash.begin(); j != i->second.count_hash.end(); ++j) {
+			cout << j->first->name << " " << j->second << "; ";
+		}
+		cout << endl;
+	}
+}
+
+void index(string word, struct File *file)
+{
+	if (is_not_a_word(word))
+		return;
+	if (is_a_stop_word(word))
+		return;
+	
+	if (word_hash.count(word) == 1) {
+		if (word_hash[word].count_hash.count(file) == 1) {
+			word_hash[word].count_hash[file]++;
+			return;
+		}
+		word_hash[word].count_hash[file] = 1;
+		return;
+	}
+	
+	Occurence occ;
+	occ.count_hash[file] = 1;
+	word_hash[word] = occ;
 }
 
 inline bool is_symbol(char c)
 {
-	if ( (c >= 0 && c <= '/') || (c >= ':' && c <= '@') 
+	if ((c <= '/') || (c >= ':' && c <= '@') 
 			|| (c >= '{' && c <= '~') || (c >= '[' && c <= '`'))
 		return true;
 	return false;
@@ -23,6 +86,8 @@ void mining()
 	char c;
 	string str;
 
+	//Get the current time and assign it to previous_index_time; And then store it somewhere permanent as well.
+
 	for (int i = 0; i < Files.size(); i++) {
 		if (!Files[i].is_modified)
 			continue;
@@ -31,7 +96,7 @@ void mining()
 		str = "";
 		while (file.get(c)) {
 			if (is_symbol(c)) {
-				index(str);
+				index(str, &Files[i]);
 				str = "";
 				continue;
 			}
@@ -91,6 +156,7 @@ void get_all_file_paths(string begin)
 {
 	DIR *root;
 	struct dirent *temp;
+	int i = -1;
 
 	root = opendir(begin.c_str());
 
@@ -98,6 +164,8 @@ void get_all_file_paths(string begin)
 		string name = begin + "/" + temp->d_name;
 		if (check_type(name) == File) {
 			struct File file;
+			file.id = ++i;
+			file.name = temp->d_name;
 			file.path = name;
 			file.is_modified = is_modified(&file);
 			Files.push_back(file);

@@ -8,6 +8,7 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include <sstream>
 
 using namespace std;
 
@@ -20,9 +21,17 @@ enum object_type {
 };
 
 struct File {
+	int id;
+	string name;
 	string path;
 	bool is_modified;
 };
+
+struct Occurence {
+	map <struct File*, int> count_hash;
+};
+
+inline string to_string(int);
 
 void display_paths();
 
@@ -34,4 +43,10 @@ void mining();
 
 inline bool is_symbol(char);
 
-void index(string);
+void index(string, struct File*);
+
+void display_index();
+
+inline bool is_not_a_word(string);
+
+bool is_a_stop_word(string);
