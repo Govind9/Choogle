@@ -6,6 +6,93 @@ long int previous_index_time = 0; //should be set at the time of indexing and st
 
 map <string, Occurence> word_hash;
 
+inline void clean_sweep()
+{
+	remove(THE_INDEX_FILE);
+	remove(THE_FILES_FILE);
+}
+
+void deserialize()
+{
+	char c;
+	int n = 0;
+	string str;
+	ifstream file(THE_FILES_FILE);
+	file >> previous_index_time;
+	file >> n;
+	file.get(c);
+	for (int i = 0; i < n; i++) {
+		struct File obj;
+		file >> obj.id;
+		file.get(c);
+		cout << obj.id << endl;
+		
+		while (true) {
+			file.get(c);
+			if (c == '\t')
+				break;
+			str += c;
+		}
+		obj.name = str;
+
+		while (true) {
+			file.get(c);
+			if (c == '\n')
+				break;
+			str += c;
+		}
+		file >> obj.path;
+		Files.push_back(obj);
+	}
+	file.close();
+
+	file.open(THE_INDEX_FILE);
+	struct Occurence occ;
+	string word;
+	int id;
+	int freq;
+	while (!file.eof()) {
+		file >> word;
+		file.get(c);
+		while (c != '\n') {
+			file >> id;
+			file >> freq;
+			occ.count_hash[&Files[id]] = freq;
+			file.get(c);
+		}
+		word_hash[word] = occ;
+	}
+	file.close();
+}
+
+void serialize()
+{
+	clean_sweep();
+	ofstream file(THE_FILES_FILE);
+	file << previous_index_time << "\t" << Files.size() << "\n";
+	for (int i = 0; i < Files.size(); i++) {
+		file << Files[i].id << "\t";
+		file << Files[i].name << "\t";
+		file << Files[i].path << "\n";
+	}
+	file.close();
+
+	file.open(THE_INDEX_FILE);
+	typedef map<string, Occurence>::iterator ITR;
+	typedef map<struct File*, int>::iterator itr;
+
+	for (ITR i = word_hash.begin(); i != word_hash.end(); ++i) {
+		file << i->first << "\t";
+		for (itr j = i->second.count_hash.begin(); j != i->second.count_hash.end(); ++j) {
+			if (j != i->second.count_hash.begin())
+				file << ";";
+			file << j->first->id << " " << j->second;
+		}
+		file << "\n";
+	}
+	file.close();
+}
+
 inline bool is_not_a_word(string word)
 {
 	if (word.length() < 2)
@@ -23,6 +110,7 @@ bool is_a_stop_word(string word)
 			if (str == word)
 				return true;
 			str = "";
+			continue;
 		}
 		str += c;
 	}
@@ -86,8 +174,6 @@ void mining()
 	char c;
 	string str;
 
-	//Get the current time and assign it to previous_index_time; And then store it somewhere permanent as well.
-
 	for (int i = 0; i < Files.size(); i++) {
 		if (!Files[i].is_modified)
 			continue;
@@ -104,6 +190,7 @@ void mining()
 		}
 		file.close();
 	}
+	previous_index_time = time(0); 
 }
 
 bool is_modified(struct File *file)
@@ -119,6 +206,7 @@ bool is_modified(struct File *file)
 
 void display_paths()
 {
+	cout << Files.size() << endl;
 	for (int i = 0; i < Files.size(); i++) {
 		cout << Files[i].path << endl;
 	}

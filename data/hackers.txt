@@ -1,0 +1,29 @@
+Online affair site Ashley Madison has joined the growing list of high-profile hacking victims.  Hackers have threatened to leak millions of customer details after posting personal information on some of the site’s users online.
+
+The breach was first reported late Sunday by Brian Krebs of Krebs on Security, a website that focuses on cybersecurity.
+
+In a statement released on Monday, Ashley Madison’s parent company Avid Life Media said that it has engaged “one of the world’s top IT security teams to take every possible step toward mitigating the attack.”
+
+Ashley Madison describes itself as “the world’s leading married dating service for discreet encounters.” Avid Life Media, which also operates matchmaking websites under the CougarLife and Established Men brands, says it has 40 million members around the world. 
+
+Avid Life Media used the Digital Millennium Copyright Act (DMCA) to remove the online posts related to the incident as well as users’ personal information that was posted online. “Our team of forensics experts and security professionals, in addition to law enforcement, are continuing to investigate this incident and we will continue to provide updates as they become available,” it said.
+
+Krebs on Security reports that the hackers behind the attack, who call themselves The Impact Team, posted snippets of account data apparently selected at random across Ashley Madison, CougarLife and Established Men. Hackers also reportedly leaked maps of internal company servers, employee network account information, company bank account data, and salary information.
+
+The report added that several of The Impact Team’s Web links were not responding Sunday evening.
+
+Related: Why the OPM hack is an ongoing cyber headache
+
+The Impact Team decided to publish the information in response to Ashley Madison’s “full delete” service, according to Krebs on Security. The hackers alleged that “full delete” does not remove users’ personal information, as promised by the site.
+
+In a screenshot of a message from The Impact Team, posted on Krebs on Security, the group demanded that Avid Life Media shut down Ashley Madison and Established Men. “Shutting down AM and EM will cost you, but non-compliance will cost you more,” it warned. “We will release all customer records, profiles with all the customers’ secret sexual fantasies, nude pictures, and conversations and matching credit card transactions, real names and addresses, and employee documents and emails.”
+
+In a statement released on Monday afternoon Avid Life Media said that Ashley Madison's "paid-delete" option does remove all information related to a member’s profile and communications activity. "The process involves a hard-delete of a requesting user’s profile, including the removal of posted pictures and all messages sent to other system users’ email boxes," it explained. "This option was developed due to specific member requests for just such a service, and designed based on their feedback."
+
+Avid Life Media said that the service, which previously cost $19, will now be offered free to any member.
+
+In a statement released early on Monday, Avid Life Media said that it had secured its sites and “closed the unauthorized access points.” The company added that “any and all parties responsible for this act of cyber–terrorism will be held responsible.”
+
+While declining to discuss specific details of Avid Life Media’s investigation, the company’s CEO Noel Biderman told Krebs on Security that the breach may be the work of someone who had access to the firm’s internal networks.
+
+“We’re on the doorstep of [confirming] who we believe is the culprit, and unfortunately that may have triggered this mass publication,” he said. “I’ve got their profile right in front of me, all their work credentials. It was definitely a person here that was not an employee but certainly had touched our technical services.”

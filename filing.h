@@ -10,6 +10,9 @@
 #include <fstream>
 #include <sstream>
 
+#define THE_INDEX_FILE "Index.txt"
+#define THE_FILES_FILE "Files.txt"
+
 using namespace std;
 
 enum object_type {
@@ -30,6 +33,12 @@ struct File {
 struct Occurence {
 	map <struct File*, int> count_hash;
 };
+
+void clean_sweep();
+
+void deserialize();
+
+void serialize();
 
 inline string to_string(int);
 

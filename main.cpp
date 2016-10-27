@@ -5,6 +5,7 @@ int main ()
 	string begin = "/home/dnivog/C++/Choogle/data";
 	get_all_file_paths(begin);
 	mining();
-	display_index();
+	serialize();
+	//display_paths();
 	return 0;
 }

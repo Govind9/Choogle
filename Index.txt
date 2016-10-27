@@ -1,0 +1,3301 @@
+00	32 1
+000	8 3;9 3;32 1;43 1
+02	32 1
+080	32 1
+10	1 1;21 2;23 1;28 1;30 1;36 1;45 1
+1000	30 1
+104	6 1;32 1
+11	2 1;4 1;23 1
+121bhp	4 1
+125	0 2
+126bhp	4 1
+13	4 1;6 1;45 1
+1348	32 1
+14	1 1;2 1
+140	0 1
+14th	6 1
+15	8 2;27 1
+150	9 1
+155Nm	4 1
+159th	10 1
+16	14 1;29 1;32 1
+163	46 1
+17	2 1;5 1;34 1
+173	6 1
+17th	0 1
+18	0 1;32 1;38 1;40 1
+1800MHz	2 1
+19	3 1;38 1
+1985	38 1
+199	41 1
+1990s	7 1
+1991	38 1
+1993	45 2
+1994	34 1;45 1
+1Designed	43 1
+20	7 1;8 2;17 1;38 1;47 2
+200	38 1
+2000	7 2
+2004	0 2
+2007	45 1
+2008	31 1
+2009	7 3
+200Nm	4 1
+2010	0 1;1 1;23 1;32 1
+2011	0 1;1 1;7 1;19 1
+2012	0 1
+2013	7 2;15 1;21 1
+2014	14 1;34 1;35 1
+2015	2 1;7 2;21 2;23 1;38 1;40 1;48 1
+20th	23 1
+21	38 1;47 1
+22	20 1
+2300MHz	2 1
+24	2 1
+248	6 1
+25	15 1;34 1;47 1
+257	45 1
+26	5 1;7 1;38 1
+260Nm	4 1
+27	37 1
+28	15 1
+29	6 1;32 1
+30	6 1;35 1;45 1
+320	9 1
+33	32 1
+34m	0 1
+37	6 1
+3rd	20 1
+40	2 1;3 1
+411	23 1
+43	1 1
+47	6 1
+48	6 1;32 1
+4G	2 2
+4m	0 1
+50	32 1
+500	8 1
+523	23 1
+53	6 2;44 2;45 1
+54	6 1
+56	14 1
+57	0 1
+58	6 1
+59	4 1
+60	4 1;9 1;28 1
+61	6 1
+6m	0 1
+70	8 1
+700	24 1
+70m	0 1
+78	6 1
+787	8 1
+79	27 1
+80	11 1;22 1
+85	9 1
+89bhp	4 1
+93	9 1
+95	8 1
+987	27 1
+999	2 2
+AAP	31 1
+ABC	42 1
+AC	41 9
+ACs	41 1
+AIIMS	8 1
+AM	3 1
+AMD	11 1
+ARE	2 1;40 1
+Aadmi	8 2;31 1
+Aam	8 2;31 1
+Academy	0 1
+According	49 1
+Act	3 1;35 1
+Acting	22 1
+Actor	45 1
+Actress	10 1
+Adivi	21 1
+Administrative	44 1
+Aerobics	33 1
+Affairs	35 2
+Africa	6 3
+African	6 1
+Afridi	39 1
+After	13 1;43 1
+Ahmed	6 1
+Ahmedabad	13 1
+Air	45 1
+Airbus	9 1
+Al	6 1;18 1
+Aleppo	28 4
+Alexa	21 1
+Ali	22 1
+All	8 1;9 1
+Allow	48 1
+Alphabet	33 1
+Alps	9 1
+Also	4 1;12 1
+Although	33 1
+Amara	26 1
+Ambala	5 1
+Ambulance	8 1
+Amitabh	25 1
+Amla	6 3
+An	43 1
+Anandiben	23 1
+And	1 1;15 1;24 1;29 1;41 1
+Andr	29 2
+Andreas	9 1
+Android	41 1
+Angel	28 1
+Anil	5 1;13 1
+Antonio	28 1
+Anushka	21 1
+Anushree	12 1
+April	27 1
+Apte	10 1
+Arab	43 2
+Argus	11 1
+Arjun	25 3
+Arms	21 1
+Arpita	12 1
+Arrested	44 1
+Arri	21 1
+Art	0 1
+Arts	0 1
+Arvind	8 1;31 1
+As	30 1;46 1;48 1
+Ashley	3 7;37 1
+Asiatic	23 2
+Asked	17 1
+Associated	38 1
+Associations	26 1
+At	1 1;4 1;17 1;31 1;41 1
+Atlanta	47 1
+Attempts	24 1
+Audrey	15 1
+August	6 1;7 1;10 2
+Auliya	39 1
+Austin	47 1
+Available	4 1
+Avari	40 1
+Avid	3 8
+Ayrton	34 1
+Azad	39 1
+BCCI	17 1
+BJP	5 1;14 1
+BRT	31 4
+Baahubali	21 4
+Bachao	5 2
+Bachchan	25 3
+Back	42 1
+Backstreet	42 1
+Bahubali	21 1
+Baishi	0 1
+Bajrang	39 1
+Bajrangi	22 1;25 1;30 1;39 5
+Bali	39 1
+Balki	25 2
+Band	2 2
+Bangladesh	6 6
+Banks	37 1
+Barack	36 1
+Barcelona	9 1;29 1
+Bavuma	6 1
+Be	48 1
+Beginning	21 5
+Bengal	44 1
+Bengaluru	27 1
+Beti	5 3
+Between	0 1
+Bhaijaan	22 1;25 1;30 1
+Bharani	21 1
+Bianchi	34 3
+Biderman	3 1
+Billionaire	49 2
+Billionaires	49 1
+Birds	0 1
+Blackalicious	33 1
+Blake	19 2
+Blue	15 1
+Board	7 1;13 2
+Bollywood	5 1;12 2
+Bombay	13 1;45 1
+Books	40 1
+Both	2 1
+Boys	42 1
+Brazilian	34 1
+Breakout	20 1
+Brian	3 1
+Bureau	7 1
+Burj	43 2
+Bus	31 1
+But	6 1;18 1;27 1;29 1;37 1;41 2;42 1
+By	7 1
+CBI	7 1
+CEO	3 1;9 1;27 1
+CHOPRA	12 1
+CRDi	4 2
+Cairo	18 1
+Caitlin	42 4
+California	24 1;42 1
+Camera	36 1
+Camp	8 2
+Caribbean	49 1
+Carlos	24 1
+Carsten	9 1
+Cases	7 1
+Casting	30 1
+Cent	44 1
+Central	7 1
+Centre	26 1;38 2
+Century	0 1;23 1
+Chairman	13 2
+Chapman	42 2
+Chaturvedi	39 1
+Chauhan	13 1
+Cheeni	25 1
+Chepauk	17 1
+Chhabria	30 1
+Chief	5 1;8 2;23 1;27 1;31 1;38 1
+China	0 2;2 1
+Chinese	0 2;32 2
+Chittagong	6 2
+Chopra	5 1;12 2
+Chowdhury	6 1
+Chris	19 1
+Cindy	37 1
+Cinema	18 1
+City	28 1
+Civil	44 1
+Clash	38 1
+Clicked	36 1
+Client	27 1
+Climate	36 1
+Clinic	8 1
+Clutter	47 1
+Col	18 1
+Commission	44 2
+Conceived	43 1
+Confidencial	24 1
+Confused	29 1
+Congress	13 1;14 3;31 1;38 1
+Consul	35 1
+Control	41 1
+Copyright	3 1
+CougarLife	3 2
+Could	38 1
+County	47 1
+Court	0 2;7 1;35 1;38 1;43 2;45 2
+Courtesy	38 1;49 1
+Covers	40 1
+Coveteur	37 2
+Cracks	44 1
+Crawford	37 1
+Credit	12 3
+Creta	4 5
+Cross	4 1
+Cultural	26 1
+Curry	20 2
+Cyril	21 1
+DEEPIKA	12 1
+DELHI	8 1;31 1;35 1;38 1;44 1;45 1
+DK	35 3
+DMCA	3 1
+DSCOVR	36 2
+Da	0 2
+Daily	44 1
+Daniel	33 1
+Daqian	0 1
+Dargah	39 1
+Das	6 2
+Davis	1 1
+Dawood	45 1
+Day	6 1
+De	6 2
+Dean	6 1
+December	35 1
+Decoded	1 1
+Deep	36 1
+Deepika	12 2;16 1
+Delhi	4 1;8 6;22 1;30 1;31 5;35 1;38 1;39 3
+Den	27 1
+Deputy	35 1
+Despite	6 1;31 1
+Devineni	21 1
+Devyani	35 2
+Dhaka	6 1
+Dhoni	10 1
+Diet	1 2
+Digital	3 1
+Dikshit	31 1
+Directors	13 1
+Djokovic	1 5
+Don	40 1
+Dr	15 3;27 2
+Drake	33 1
+Dravid	17 2
+Drive	4 1
+Dubai	43 4
+Duesseldorf	9 1
+Duminy	6 2
+Duster	4 1
+Dutt	45 1
+ECA	24 1
+ECG	8 1
+EM	3 1
+EPIC	36 2
+Earth	36 2
+Edition	37 1
+Eelam	38 1
+Efforts	27 1
+El	24 1
+Elgar	6 3
+Elsa	28 1
+Eminem	33 1
+English	21 1;44 1;45 1
+Equities	27 1
+Erin	33 2
+Essa	45 1
+Essentially	41 1
+Established	3 3
+Estate	49 1
+European	0 1
+Ever	19 1
+Everybody	42 1
+Everyone	20 1
+Exam	44 2
+Examination	7 1
+Exchange	32 1;45 1
+Executive	27 1
+Expensive	49 1
+External	35 2
+Eye	11 1
+Eyewitnesses	16 1
+F1	34 2
+FALSE	19 1
+FAPE	28 2
+FDD	2 1
+FIR	7 1
+FTII	13 1
+Facebook	18 1
+Faf	6 1
+February	32 1
+Federation	26 1
+Felipe	24 1
+Female	18 1
+Fi	41 1
+Fighting	28 1
+Filmmaker	25 1
+Finally	1 1
+Financial	27 1
+Fine	0 2
+First	2 1;4 1;15 1
+Fish	15 4
+Flip	44 1
+Flipkart	2 1
+Flynn	11 3
+For	24 1;47 1
+Force	7 1
+Foreign	35 1;44 1
+Forest	23 1
+Formula	34 1
+Foundation	0 1
+Francisco	47 2
+Free	1 3
+French	9 1;21 1;24 2;34 1
+Friday	34 1
+From	42 1;49 1
+Furthermore	41 1
+GADGETS	2 1;40 1
+GMT	32 1
+GTB	8 1
+Gadget	41 1
+Gajendra	13 1
+Galaxy	2 6
+Gandhi	14 1;38 4
+Ganguly	17 1
+Gardens	21 1
+Geisel	15 3
+General	35 1;38 1
+German	27 1
+Germanwings	9 1
+Germany	9 1
+Get	15 2
+Gir	23 2
+Give	42 1
+Gluten	1 4
+Go	15 2
+Gold	32 3
+Gone	47 1
+Gonzalez	28 1
+Good	41 1;42 1
+Got	44 1
+Governors	13 2
+Graft	44 1
+Graham	37 2
+Grand	1 1;34 2;43 1
+Group	24 1
+Guangzhou	0 3
+Guards	24 1
+Gujarat	23 4
+Gulf	43 1
+Gupta	12 1
+HERE	2 1;40 1
+HOMELAPTOPS	40 1
+HOMEMOBILES	2 1
+Hackers	3 2
+Hallerman	42 1
+Halo	46 3
+Haltern	9 1
+Hamilton	34 1
+Hansraj	30 1
+Hanuman	39 1
+Hard	38 1
+Harmony	41 1
+Harper	15 1
+Harshaali	30 3;39 1
+Haryana	5 1
+Hasan	6 1
+Hashim	6 1
+Having	1 1
+Hazrat	39 1
+He	0 4;6 1;11 3;14 1;22 2;25 1;27 1;29 2;33 1;34 1;39 2;45 3
+Health	5 1;8 1
+Heidi	37 2
+Her	12 1;39 1
+High	35 1;46 1
+Highlights	6 1
+Hindi	7 1;21 1
+Hindu	13 2;39 1
+HireAHelper	47 1
+His	1 2;27 1;34 1;45 3
+Hobby	24 1
+Holding	49 1
+Hopefully	22 1
+Hospital	8 1;11 1
+Hossain	6 2
+Host	43 1
+House	24 1
+How	40 1;44 1
+However	7 1;19 1;23 1;43 1
+Howlett	27 1
+Hyundai	4 6
+IANS	10 1
+IAS	44 4
+IFS	35 1;44 1
+II	11 1
+IIM	13 1
+IIMs	13 1
+IIT	13 1
+IITs	13 1
+IPS	44 1
+IR	41 2
+IS	26 1;28 1
+IST	38 1
+IT	3 1;27 1
+Ibrahim	45 2
+If	16 1;41 2
+Illustrated	37 1
+Image	12 3;44 1;49 1
+Images	49 1
+Imaging	36 1
+Impact	3 4
+Impressions	2 1
+Imrul	6 1
+In	0 2;3 4;5 1;6 1;7 1;10 1;23 1;32 1;35 1;39 1;41 2;43 1;46 1;47 1
+India	2 2;7 1;13 1;17 3;27 1;32 1;35 1;39 4;45 4
+Indian	4 1;7 1;12 1;21 3;23 2;35 4;39 1;44 3;48 1
+Indore	7 1
+Infosys	27 4
+Iniesta	29 6
+Instagram	29 7
+Intermediate	0 2
+Internet	20 1;41 1
+Investigation	7 1
+Investigators	9 1
+Iqbal	6 1
+Ireland	37 1
+Is	44 1
+Islam	6 1
+Islamic	26 1;28 1
+It	3 1;9 1;13 1;15 1;17 3;18 1;20 1;22 1;24 1;25 1;27 1;41 1;47 3
+Its	41 1
+J5	2 3
+J7	2 3
+JP	6 2
+Jab	22 1
+Jackson	42 1
+Jagdish	7 1
+Jain	8 2
+Jaipur	14 1
+Jamshed	40 1
+January	24 1
+Japan	24 1
+Japanese	32 1;34 1
+Jayalalithaa	38 3
+Joan	43 1
+John	42 1
+Jose	28 1
+Juan	24 1
+Jubair	6 3
+Judge	40 1
+Judging	37 1
+Jugal	30 1
+Jules	34 1
+July	2 2;5 1;6 1;7 1;15 1;21 2;28 1;36 1;38 1;40 1;45 1
+Jumeirah	43 1
+June	7 1;27 1
+Just	4 1;19 2;36 1
+KAJOL	12 1
+Kabir	30 2
+Kabul	30 1
+Kajol	12 2
+Kakodkar	13 1
+Kalaipuli	10 1
+Kapil	31 1
+Kapoor	22 2;25 2;39 1
+Kareena	22 6;25 2;39 1
+Kashmir	39 1
+Kathy	37 1
+Kawaljeet	27 1
+Kayes	6 1
+Keeravani	21 1
+Kejriwal	8 1;31 1
+Kelsey	42 2
+Kerala	44 1
+Khan	22 2;25 1;30 3;39 1
+Khattar	5 1
+Khobragade	35 4
+Kill	15 1
+Killers	38 1
+King	24 2
+Klum	37 1
+Kobane	26 1
+Kock	6 2
+Korean	4 1
+Kotak	27 1
+Kotala	43 1
+Krebs	3 6
+Krishnan	21 1
+Krysztof	43 1
+Kum	25 1
+Kumar	38 1;39 1
+Kurnool	21 1
+Kurukshetra	39 2
+LA	47 1
+LAPTOPS	40 1
+LCD	41 2
+LEDs	41 1
+LTE	2 4
+LTTE	38 1
+Labeling	1 1
+Labourer	44 1
+Lagaan	14 1
+Lal	5 1
+Lambert	19 6
+Lanka	38 1
+Last	33 1
+Law	31 1
+Laxman	17 1
+Laxmikant	7 1
+Lee	15 1
+Left	6 1;13 1
+Legend	10 1
+Lewis	34 1
+Liberation	38 1
+Life	3 8
+Lifestyle	49 1
+Literature	45 1
+Litton	6 1
+Logging	41 1
+Logitech	41 1
+Lok	14 1
+London	32 1
+Lopez	28 1
+Low	40 1;46 1
+Lubitz	9 1
+Lufthansa	9 1
+Luxpresso	48 1;49 1
+MEA	35 4
+MJ	42 1
+MLA	5 1
+MLAs	8 1
+MOBILES	2 1
+MPPEB	7 3
+Maddie	42 1
+Madhya	7 2
+Madison	3 7
+Madrid	24 1;29 2
+Mahindra	4 2
+Mahmud	18 1
+Mahmudullah	6 1
+Malayalam	21 1
+Malaysia	10 2
+Male	46 1
+Malhota	12 1
+Malhotra	12 2;30 2;39 1
+Manchester	11 1
+Mandal	7 1
+Manish	12 3
+Manohar	5 1
+Manuel	28 1
+Many	5 1;32 1
+March	9 1
+Mariah	42 1
+Marino	34 1
+Marussia	34 1
+Maruti	4 1
+Masaba	12 1
+Masters	1 1
+May	14 1;23 1;38 1
+Me	20 1;42 1
+Meanwhile	24 1
+Media	3 8
+Meher	39 2
+Mehta	12 1
+Memon	45 9
+Men	3 3;46 1
+Met	22 1
+Metro	18 1
+Miami	46 1
+Millennium	3 1
+Minister	5 2;8 3;14 1;23 1;31 2;38 2
+Ministry	35 2
+Mira	22 1
+Miranda	19 2
+Mirror	22 3
+Mishra	31 1
+Miss	20 1
+Mockingbird	15 1
+Modi	14 2
+Mohan	21 1
+Monday	3 3;16 1;26 1;29 1;32 5
+Money	44 1
+Morning	41 1
+Most	46 1;49 1
+Mourners	26 1
+Moving	47 1
+Mr	5 4;8 1;9 1;11 1;25 2;27 1
+Ms	35 1
+Mukesh	30 1
+Mumbai	22 3;30 1;45 1
+Munich	41 1
+Munni	30 1;39 1
+Muslim	39 1
+Mustafizur	6 5
+My	19 1;29 1
+NASA	36 2
+NBA	20 1
+NDTV	30 1;44 1
+NEW	8 1;31 1;35 1;38 1;44 1;45 1
+NYC	49 1
+Nadu	38 3
+Nae	20 5
+Naed	20 1
+Naeing	20 4
+Naik	13 1
+Narayanan	10 1
+Narendra	14 1
+Nashwa	18 1
+Nassar	21 1
+Nawazuddin	30 1
+Neon	12 4
+Nest	41 2
+Never	30 1
+New	32 1;35 1;38 1;46 1
+News	48 1
+Nice	34 1
+Nissan	4 1
+Nizamuddin	39 1
+No	1 1
+Noel	3 1
+Non	29 1
+Nor	5 1
+Not	44 1
+Notably	2 1
+Novak	1 3
+Now	33 1;42 1
+ODIs	6 1
+OPM	3 1
+Obama	36 1
+Observatory	36 1
+October	34 1
+Of	24 1
+Off	6 1
+Officer	44 1
+Oh	15 1
+Ohio	46 1
+Old	28 1
+On	30 1;39 1
+Once	1 1;18 1;23 1
+One	15 1;21 1;42 1
+Online	3 1
+Openers	6 2
+Or	41 1
+Orange	47 1
+Organiser	13 1
+Our	3 1;40 2
+Over	38 1
+PADUKONE	12 1
+PM	26 1
+PMT	7 2
+POTUS	36 1
+PR	19 1;29 1
+PRIYANKA	12 1
+PTI	25 1
+Pa	10 1
+Paa	25 1
+Paceman	6 1
+Padhao	5 1
+Padukone	12 1;16 1
+Pakistan	39 3;45 1
+Pakistani	30 1
+Palace	24 1
+Palm	43 1
+Pampliega	28 1
+Pariksha	7 1
+Parineeti	5 3
+Paris	24 1
+Party	31 1
+Passports	35 1
+Patel	23 1
+Pawan	39 1
+Peeragarhi	8 2
+People	0 2
+Per	44 1
+Perhaps	14 1
+Persian	43 1
+Pet	15 2
+Places	15 1
+Player	1 1
+Plessis	6 2
+Police	44 1
+Polish	43 1
+Polychromatic	36 1
+Poor	31 1
+Power	44 1
+Prabhas	21 1
+Pradesh	7 2
+Prasad	21 1
+President	14 2;36 1;45 1
+Press	38 1
+Prime	14 1;38 1
+Prix	34 2
+Priyanka	12 2
+Produced	10 1;21 1
+Professional	7 1
+Proteas	6 1
+Public	44 1
+Punjab	22 1
+Qi	0 1
+Queen	24 1
+Quinton	6 1
+RELATED	44 1
+REVIEWS	2 1;40 1
+RSS	13 1
+Radcliffe	33 3
+Radhika	10 3
+Rahman	6 1
+Rahul	14 3
+Rajamouli	21 2
+Rajinikanth	10 2
+Rajiv	38 4
+Rajput	22 1
+Ramya	21 1
+Rana	21 1
+Ranjit	38 1
+Ranjith	10 1
+Ranveer	16 1
+Rapid	31 1
+Rasika	39 2
+Rates	47 2
+Ray	11 2
+Read	4 1
+Real	33 1;49 1
+Reason	42 1
+Recipes	1 1
+Red	15 1
+Reddy	12 1
+Related	3 1;24 1;29 1
+Relief	8 2
+Renault	4 1
+Report	4 1
+Representational	44 1
+Result	41 1
+Review	40 1
+Riley	20 1
+Robin	2 1
+Rock	0 1;21 1;45 1
+Royal	11 1;24 1
+Rs	2 2;4 2;8 3
+Rubina	45 1
+STF	7 1
+SUV	4 1
+Sabha	14 1
+Sabi	18 1
+Sabu	21 1
+Sachin	17 1
+Safdarjung	8 1
+Sagar	7 1
+Saif	22 1
+Salman	22 1;30 1;39 1
+Saluja	27 1
+Samsung	2 4
+San	34 1;47 2
+Sangria	19 1
+Sanjay	45 1
+Santosh	10 1
+Saree	12 3
+Sastre	28 1
+Sathyaraj	21 1
+Satyendra	8 1
+Says	44 1
+Scorecard	6 1
+Scorpio	4 1
+Sea	45 1
+Second	11 1
+Security	3 5;24 1
+See	13 1
+Senna	34 1
+Serbia	1 1
+Serbian	1 1
+Series	2 1
+Serve	1 1
+Service	35 1;44 4
+Services	44 1
+Sesh	21 1
+Set	15 1
+Seuss	15 4
+Shady	33 1
+Shahid	22 5;39 1
+Shahida	39 3
+Shakib	6 1
+Shamitabh	25 1
+Shanghai	32 3
+Sharma	7 1
+She	12 4;20 1;30 2;33 1;39 1
+Sheila	31 1
+Shelton	19 7
+Shetty	21 1
+Shobu	21 1
+Should	15 2
+Shri	39 1
+Shutting	3 1
+Siddiqui	30 1
+Sight	11 1
+Sikka	27 6
+Silento	20 1
+Since	8 1
+Singh	16 1;38 1
+Sinha	2 1
+Slam	43 1
+Slams	1 1
+Slide	40 2
+Slim	33 1
+Smart	41 1
+So	17 1;41 1
+Socialist	26 1
+Sofia	24 1
+Solicitor	38 1
+Some	12 1;19 1
+Son	44 1
+Sonia	38 1
+Soruc	26 1
+Sourav	17 1
+South	4 1;6 4;31 1;46 1
+Space	36 1
+Spain	24 2;29 1
+Spanish	24 1;28 5
+Special	7 1
+Spohr	9 2
+Sports	37 1
+Spot	32 1
+SputnikNews	24 1
+Sri	38 1
+Srinivas	21 1
+Stadium	6 1
+State	7 1;26 1;28 1
+Steph	20 1
+Stern	43 1
+Stiaan	6 1
+Stock	45 1
+Streets	49 1
+Strong	21 1
+Subsequent	7 1
+Subtle	12 1
+Success	17 1;44 1
+Such	40 1
+Sudeep	21 1
+Suggesting	13 1
+Sultanpur	39 1
+Summer	41 1
+Summers	12 1
+Sunday	3 2
+Suparna	38 1
+Superbikes	48 1
+Superfast	48 1
+Supreme	7 1;38 1;45 2
+Sure	41 1
+Surprisingly	12 1
+Suzuki	4 1
+Swimsuit	37 1
+Syria	26 1;28 3
+Syrian	28 1
+TDD	2 1
+TMZ	19 1
+TV	39 1
+Tado	41 9
+Taijul	6 1
+Taking	29 1
+Talking	17 1
+Tamannaah	21 1
+Tamil	21 1;38 4
+Tamils	38 1
+Tamim	6 1
+Tanikella	21 1
+Task	7 1
+Team	3 4
+Tehran	30 1
+Telugu	21 1
+Temba	6 1
+Temperatures	41 1
+Tendulkar	17 1
+Tennis	1 2;43 2
+Terming	8 1
+Terms	29 1
+Terrano	4 1
+Terrorist	45 1
+Test	6 8
+Thanu	10 1
+That	0 1;14 1;15 1;19 1;32 1;44 1
+The	0 2;1 1;2 2;3 9;4 2;5 2;6 3;7 6;8 2;9 2;10 2;11 2;12 3;15 1;18 3;19 3;21 9;22 2;24 2;25 2;26 1;28 4;29 3;30 2;31 2;32 1;33 1;34 2;35 3;37 2;38 3;39 1;41 3;42 2;43 1;44 4;45 1;46 3;47 3;49 1
+Their	40 1
+Theodor	15 1
+There	14 1;17 1;40 1;41 1
+These	4 1;7 2;14 1
+They	19 1;26 3;28 1
+This	1 1;3 1;8 3;31 1;38 1;44 1;47 2
+Those	37 1
+Three	28 1
+Thursday	2 1
+Tiger	45 1
+Tigers	38 1
+Times	27 1
+To	1 1;10 1;15 1;43 1
+Today	27 1
+Tonight	33 1
+Top	1 1
+Topper	44 2
+Tote	47 2
+Tough	44 1
+Tournaments	43 1
+Tracy	42 2
+Transit	31 1
+Travel	43 1
+Tuesday	6 1;19 1;32 2
+Turkey	26 1;28 1
+Twitter	19 2
+Two	15 1;46 1
+Tyra	37 1
+UK	11 1
+US	11 1;32 2;35 3;36 1
+USA	35 1
+Uber	47 1
+Udta	22 1
+Underwater	43 1
+Unfortunately	39 1
+Union	44 1
+University	46 2
+Updated	38 1
+Upon	1 1
+Use	29 1
+VI	24 1
+VTVT	4 1
+VVS	17 1
+Verna	4 1
+Vice	14 1
+Vij	5 5;39 2
+Vishal	27 2
+Vyapam	7 2
+Vyavsayik	7 1
+WASHINGTON	36 1
+Wage	44 1
+Wales	46 1
+Want	42 1
+Watch	20 1
+Watchman	15 1
+We	3 2;8 1;20 1;22 2;28 1;30 1;49 1
+Wearing	12 1
+Web	3 1;41 2
+Weed	11 1
+Weeks	23 1
+West	8 1
+Western	28 1
+What	14 1;15 2;20 1
+When	7 1;10 1;41 1;46 1;47 1
+Whenever	42 1
+While	2 1;3 1;4 1;48 1
+White	24 1
+Whitney	42 1
+Why	3 1
+Wi	41 1
+Wimbledon	1 3
+Win	1 1
+Windows	40 1
+With	21 1;24 1;30 1;41 1
+Within	32 1
+Without	25 1
+World	1 1;34 1;49 1
+Written	38 1
+XT	21 1
+XUV500	4 1
+Xiao	0 4
+Xinhua	0 1
+YOU	2 1;40 1
+Yakub	45 3
+Yarlagadda	21 1
+Yawm	18 1
+Yes	20 1
+York	32 1;35 1
+You	1 1;15 1;20 1;42 1;47 5
+Young	19 3
+Youth	26 1
+Yuan	0 2
+Yusuf	45 1
+Zahur	6 1
+Zarzuela	24 1
+Zhang	0 1
+Zhu	0 2
+Zyl	6 2
+abide	40 1
+ability	27 1
+aboard	9 1
+abode	23 1
+absolute	40 1
+abundance	43 1
+access	3 2;47 1
+accessible	8 1
+accessories	12 1
+accessory	41 1
+account	3 3;29 3;41 1
+accountant	45 1
+accused	45 1
+acronym	7 1
+act	3 1;22 1;30 1
+actions	14 1
+active	32 1
+activists	26 1
+activities	13 2
+activity	3 1
+actor	16 1;22 1;25 1;33 1
+actress	5 3;16 1;22 1;25 1
+acts	35 2
+actual	46 1
+add	6 1;41 1;43 1
+added	3 2;5 1;8 1;27 1
+addition	3 1
+address	19 1;47 1
+addresses	3 1
+admission	7 1
+admissions	7 1
+admitted	0 1
+adoption	27 1
+advanced	40 1;41 2
+advantage	32 1
+advertisements	40 1
+advising	39 1
+advisory	17 1
+affair	3 1;19 1
+affects	11 1
+affidavit	35 2
+afford	29 1
+affordable	2 1
+aficionados	48 1
+afternoon	3 1;26 1
+age	1 1;11 2
+agency	0 1;7 1
+aggression	46 1
+aggressive	14 1
+agreeing	47 1
+aidyanathan	38 1
+ailments	8 1
+aimed	8 1;14 1
+air	28 1;41 5;43 1
+airline	9 1
+airport	16 2;38 1
+al	18 1;43 2
+alarm	24 1
+allegations	0 1;14 1;19 1
+alleged	3 1;13 1
+allergy	1 1
+allocated	8 1
+amazing	37 1
+ambassador	5 5
+amount	24 1
+analogy	14 1
+analyse	32 1
+analysed	46 1
+analysts	27 1;32 1
+analyzed	36 1
+angel	30 1
+anger	31 1
+announced	5 1;8 1;19 1;27 1
+announcement	40 1
+annoyance	24 1;41 1
+annually	44 1
+anonymous	46 1
+anti	13 5
+antiques	0 1
+anymore	11 1
+apologised	0 1
+apologize	29 1
+app	41 4;47 4
+apparently	3 1;24 1
+appeals	45 1
+appearance	25 3
+appearances	14 1
+appeared	29 1
+appearing	14 1
+appliances	41 1;47 1
+application	27 1
+appointed	5 1;17 1
+appointment	5 1;13 1
+apprehensions	43 1
+approach	14 1;41 1
+approached	10 1
+approval	20 1
+aquarium	43 1
+architect	43 2
+architects	45 1
+ardent	25 1
+area	28 1;47 1
+areas	28 1
+arena	1 1;43 2
+argument	14 1
+arm	6 1
+arranged	8 1
+arrest	7 1;45 1
+arrested	7 3;24 1
+arrests	7 1
+arrival	16 1
+arrive	38 1
+art	0 2;49 1
+article	13 3
+artist	20 1
+asked	8 1
+aspects	17 1
+assassination	38 1
+assault	14 1
+assets	49 1
+association	28 1
+assumes	39 1
+atoll	43 1
+atop	43 1
+attached	24 1
+attack	3 2;14 1;45 2
+attacks	45 2
+attempt	42 1;46 1
+attention	12 1
+attracted	12 1
+auditioned	30 1
+authorities	24 1;26 1
+automatic	4 2;41 1
+automatically	41 2
+autonomous	7 1;24 1
+average	8 1;32 1
+aware	28 1
+baby	39 2
+background	21 1
+bad	0 1
+bag	47 1
+ball	6 2;17 1
+balls	6 1
+ban	23 1
+bank	3 1;11 1;27 1
+bargain	40 1
+based	2 1;3 1;27 1;40 1;41 1
+bases	42 1
+basically	41 1
+basis	47 1
+bat	6 1;17 1
+baton	18 1
+batting	17 1
+bear	27 2;32 1
+bearable	47 1
+beating	18 1
+beautiful	36 1
+beds	8 2
+beeps	41 1
+began	21 1;22 1
+beginning	9 1
+begun	1 1
+behalf	35 1
+behaviours	46 1
+believed	16 1;24 1
+belonging	28 1
+beloved	15 1
+bends	1 1
+betray	19 1
+bid	34 1
+big	27 2;47 1
+bigger	30 2;31 1
+biggest	27 1
+bike	48 2
+bikes	48 2
+bilingual	21 1
+bill	41 1
+billion	32 2
+bills	41 1
+binary	14 1
+birthday	20 1;45 1
+bit	24 1
+bizarre	29 1
+black	12 2;15 1
+blades	1 1
+blame	19 1
+blasts	45 7
+blatant	35 1
+blind	11 1
+block	24 1
+blockbuster	30 1
+blog	29 1
+blood	8 1;22 1
+blossomed	37 1
+blouse	12 3
+blow	5 2
+blue	36 1
+boards	39 1
+boasting	43 1
+body	1 1;7 1
+bomb	26 1
+bomber	26 1;38 1
+book	1 1;15 3
+books	0 1;15 1
+bops	33 1
+border	39 1
+born	23 1
+borrow	0 1
+boss	27 1
+bottleneck	8 1
+bought	4 1
+bouquet	16 1
+bout	32 1
+bowlers	17 1
+bowling	17 1
+box	21 1;25 1;30 1;47 1
+boxes	3 1;40 1;47 1
+boy	1 1
+boyfriend	22 1
+brace	22 1
+brahmin	39 1
+brand	5 5
+brands	3 1
+breach	3 2
+bread	1 1
+break	14 1
+breaking	43 1
+breakthroughs	27 1
+breathing	1 1
+bribed	7 1
+bride	42 1
+bridesmaids	42 2
+bring	6 1
+brink	32 1
+broke	6 1;19 1;42 1
+brother	45 2
+brought	5 1;35 1
+brow	40 1
+browser	41 1;47 1
+brutal	38 1
+budget	8 1
+build	43 1
+building	43 1
+buildings	29 1
+built	41 2;43 1
+bureaucrats	7 1;44 1
+burial	26 1
+bursts	14 1
+bus	31 1;39 1
+business	27 1
+businessmen	7 1
+button	38 1
+buy	0 1;40 1
+buying	45 1;49 1
+buys	39 1
+buzz	25 1
+call	1 2;3 1;19 1
+called	14 1
+calligrapher	0 1
+calls	39 1
+camera	11 1;21 1;36 1
+cameras	21 1
+campaign	5 2
+candidates	7 3;44 3
+cap	6 1
+capable	24 1
+capital	8 1;31 1;45 1
+captain	6 1;9 1
+captures	36 1
+capturing	14 1
+car	16 1;34 2;42 1
+carb	1 1
+card	3 1;11 1
+care	8 3
+career	1 1;22 1;30 1
+careers	37 1
+carmaker	4 1
+carried	14 1
+carrier	45 1
+carries	33 1
+case	7 1;19 1;32 1;35 1;41 2
+cases	1 1;7 1
+cast	10 1;21 1
+catch	6 2;24 1
+cater	8 1
+cathedral	34 1
+cats	41 1
+caught	6 1
+causing	24 1
+caveats	41 1
+celebrate	23 1
+celebration	1 1
+celebrities	12 1
+celebrity	5 1
+celebs	12 1
+cent	8 1;27 1;44 1
+central	11 2
+century	23 1
+chaired	31 1
+chairman	13 1
+challenged	45 1
+challenges	43 1
+challenging	35 1
+champion	1 1;34 2
+change	39 1;41 1
+changed	1 1;32 1;41 1
+changer	1 1
+changing	32 1
+character	30 1
+charcoal	12 1
+charge	0 1
+charged	24 1
+charges	41 1
+charts	32 2
+cheating	19 2
+check	47 2
+chest	1 1
+chief	5 1
+child	5 1;30 2
+children	15 1
+chimes	33 1
+choice	4 1
+choose	41 1;47 1
+chorus	33 1
+chose	6 1;10 1
+chosen	14 1;48 1
+cinema	18 2;21 1
+cinematic	21 1
+circulated	19 1
+circumstances	18 2;39 1;45 1
+cite	19 1
+cities	49 2
+citing	19 1
+city	28 2;34 1;39 1
+civil	44 4
+claim	6 1
+claimed	6 2;45 1
+claiming	19 1
+claims	13 1;19 2
+clarified	5 1
+clarify	5 1
+classic	15 1
+clear	18 1;19 1
+clearer	29 1
+clients	27 4
+climate	12 1
+clinic	8 6
+clinics	8 6
+clip	18 1
+close	29 1;41 1
+closed	3 1;32 1
+closely	27 1
+clothes	12 1
+clueless	24 1
+clutched	26 1
+clutter	47 1
+coach	17 1
+cockpit	9 1
+codes	41 1
+coffins	26 1
+cold	5 1
+collaboration	30 1
+collapsing	1 1
+colleagues	14 1;34 1
+collusion	7 1
+colonel	18 1
+colour	12 1
+coloured	12 1
+colours	12 2
+coma	34 1
+combination	12 1
+comfort	41 1
+coming	1 1;22 1;32 1
+comments	5 1;46 1
+committed	18 1
+committee	7 2;17 1
+communications	3 1
+commuted	45 1
+commuters	31 2
+compact	4 1
+companies	41 1;47 1
+company	3 5;24 1;27 2;41 2;47 3
+compare	47 1
+compelling	18 1
+competitors	46 1
+complained	31 1
+complaints	7 1
+complete	27 1
+completed	32 1;45 1
+completely	1 2;12 1
+complex	43 2
+compliance	3 1
+composed	21 1
+comprising	17 1
+computer	11 1
+computerised	8 1
+concerned	24 1
+condemnation	18 1
+condition	11 1
+conditioner	41 1
+conditioners	41 1
+conditioning	41 3
+conditions	5 1;29 1
+conducted	44 2
+conducting	7 1
+conference	17 1;26 1
+confidence	27 1
+confirmed	41 1
+confirming	3 1
+confrontation	38 1
+confusion	24 1
+connection	7 1
+connectivity	2 1
+connects	41 1
+consecutive	1 1
+consequences	35 1
+considerable	31 1;48 1
+considered	10 1;41 1
+conspiracy	45 1
+constituencies	8 2
+consumer	41 1
+contacted	10 1;29 2
+contended	35 1
+content	22 1
+contentment	22 1
+contest	17 2
+continue	3 1
+continues	14 1;29 1;30 1
+continuing	3 1
+contract	27 1;32 1
+contrast	12 1
+contrasting	12 1
+contributing	19 1
+control	13 2;30 1;41 8
+controlled	24 1
+controller	24 2;41 4
+controls	28 1;41 1
+controversy	5 2
+convenient	48 1
+conversations	3 1
+converts	11 1
+convicted	38 1;45 3
+cooler	41 1
+copies	0 1
+copters	24 1
+coral	43 1
+corner	27 1
+corridor	31 2
+corruption	0 1;14 1
+cost	3 3;8 3;47 3
+costs	47 1
+couldn	29 1
+counted	41 1
+countermeasure	24 1
+country	0 1;2 1;7 1;19 2;24 1;44 1
+couple	41 1
+court	0 2;35 3;43 4;45 1
+courts	43 1
+courtyard	26 1
+covered	42 1;43 1
+cranking	41 1
+crash	34 1
+crashed	24 1
+crashing	9 1;34 1
+create	12 1;25 1;43 1
+credentials	3 1
+credit	3 1
+crew	10 1
+cricket	6 1;17 1;39 1
+cricketer	17 1
+crime	18 1
+crisply	41 1
+criticised	31 1
+criticism	13 1
+critics	21 1
+crop	22 1
+crore	8 2
+cross	31 1
+crowd	18 1;42 1
+crucial	49 1
+cubs	23 2
+culprit	1 1;3 1
+cup	1 1
+curator	0 1
+cure	8 1
+current	17 1;19 1
+curved	43 1
+curvier	37 1
+customer	3 2;47 1
+customers	3 1;9 1;27 1
+cyber	3 2
+cybersecurity	3 1
+daily	28 1;32 1
+dairy	1 1
+dancing	39 1
+dash	12 1
+data	3 2
+database	41 1
+date	21 1;45 1
+dated	22 1
+dates	47 1
+dating	3 1;22 1
+daughter	20 2
+daughters	35 4
+daunting	6 1
+day	0 1;1 1;5 1;6 4;11 2;14 4;22 1;32 2;37 1
+days	24 1;29 1
+dead	28 1
+deadly	45 1
+deal	27 1
+deals	27 2;32 1
+death	45 2
+debilitating	46 1
+debut	6 1
+decades	45 1
+decide	32 1
+decided	3 1;29 2;31 1;45 1
+decision	1 1;5 1;6 1;22 1;31 1
+decisive	6 1
+declare	27 1
+declared	6 1
+declining	3 1
+deep	6 1
+defence	0 1
+defensive	6 1
+degeneration	11 2
+degrees	45 1
+delete	3 4
+deliberately	9 1;40 1
+delighted	11 1
+deliver	2 1
+demanded	3 1
+denominated	27 1
+deny	6 1;19 1
+department	5 3
+descent	9 1
+describes	3 1
+deserve	38 1
+design	41 1
+designed	3 1;12 1;41 1;47 1
+designer	21 1
+designers	12 1
+destroyed	28 1
+details	0 1;3 2
+detained	45 1
+detecting	1 1
+devastated	40 1
+developed	3 1
+developers	43 1
+developing	24 1
+devices	2 1;41 1;47 1
+devout	39 1
+didn	14 1;42 1
+die	33 1;34 1
+died	34 1;38 1
+diesel	4 6
+diet	1 3
+dieting	1 1
+difference	30 1
+difficulties	1 1
+difficulty	35 1
+digital	21 1;27 2
+dilute	35 1
+directed	10 1;21 1
+direction	11 1
+director	25 1;30 2
+disappeared	11 1
+disbelief	40 1
+discern	0 1
+discover	1 1
+discovered	1 1;15 1
+discreet	3 1
+discuss	3 1
+discussed	5 1
+discussion	22 1
+dismal	6 1
+dismiss	6 2;40 1
+dismissed	24 1
+dispensary	8 1
+display	41 1;43 1
+dispute	18 1
+disregard	46 1
+disturbed	14 1
+disturbing	24 1
+divergent	18 1
+diving	45 1
+divorce	19 4
+doctors	8 1
+documents	3 1
+doesn	14 1;39 1;41 1
+dollar	27 1
+domain	44 1
+dominant	46 1
+don	19 1;28 1;29 1;40 1
+doorstep	3 1
+double	32 1;41 1;43 1
+doubts	35 1
+dozen	23 1
+dozens	41 1
+dragging	18 1
+drawn	14 1
+dream	6 1
+dressed	12 2
+drifting	48 1
+drive	30 1
+driver	34 2
+drone	24 4
+drones	24 2
+drought	23 1
+dry	11 1
+du	6 2
+dub	20 1
+dubai	43 1
+dubbed	21 1
+dubious	35 1
+due	1 1;3 1;23 1;27 1;46 1
+dumb	41 1
+dump	24 1
+dumped	32 1
+duty	4 1
+earlier	6 1;8 1;14 1;38 1
+early	3 1;23 1
+earned	6 1
+easier	47 1
+easily	41 1
+east	28 1
+easy	6 1
+eat	1 1
+economies	48 1
+economy	41 1
+edge	6 1
+edged	6 1
+education	7 1
+educational	7 1
+effects	21 1
+efforts	24 1
+eighth	30 1
+election	14 1
+electric	18 2;41 2
+electronics	41 1;47 1
+elicited	18 1
+elite	44 1
+email	3 1
+emails	3 1
+embarrassment	5 1
+embellished	12 1
+emotive	38 1
+employee	3 3
+employer	35 1
+encounters	3 1
+enforcement	3 1
+engaged	3 1;42 1
+engagement	14 1
+engine	4 2
+engineers	43 1
+engines	4 2
+ensemble	21 1
+entering	28 1
+enthusiast	33 1
+entire	36 1
+entities	32 1
+entrance	7 4
+environmentalists	31 1
+epic	21 1;42 1
+episode	29 1
+equipment	47 1
+equipped	36 1
+erupted	5 1
+escape	35 1
+essential	14 1
+essentially	40 1
+established	7 2
+estate	49 2
+estimate	27 1
+estimated	0 1;32 1
+ethnic	38 1
+evening	3 1;6 1
+evenings	24 1
+event	12 1
+exact	29 1
+examination	44 4
+examined	29 1
+exams	7 1
+excellent	41 1
+exchange	32 2
+exciting	17 1
+exclusive	49 1
+exclusives	2 1
+executed	45 1
+executing	45 1
+execution	45 3
+exhibits	0 1
+existing	27 1;41 1
+exodus	27 1
+expand	47 1
+expanding	47 1
+expectant	39 1
+expected	32 1
+expecting	47 1
+expensive	21 1
+experience	27 1;47 1
+experienced	17 1
+experiences	2 1
+experiment	31 1
+experts	3 1;31 1
+explain	29 1
+explained	3 1;11 1
+explains	1 1
+explanation	29 1
+expressed	5 1
+extent	11 1
+extraordinary	37 1;41 1
+extremely	12 1
+eye	12 1;14 1
+eyes	12 1
+fab	12 1
+face	6 1;18 1;22 1
+faced	29 1
+faces	15 1
+facilities	8 2;24 1
+facility	8 2
+fact	24 1
+factor	19 1
+failed	24 1;25 1
+faithful	19 1
+fakes	0 4
+fall	32 1;48 1
+familiar	15 1;41 1
+families	9 1
+family	24 1;29 1;34 1;39 1;45 1
+famous	0 1;19 1;23 1;24 1;29 5
+fan	25 1;41 1;47 1
+fans	1 1;19 1;34 1;41 1
+fantasies	3 1
+farewell	34 1
+fashion	12 2
+fast	24 1
+father	29 1;39 2
+favor	19 1
+fear	46 1
+feature	10 1
+features	2 1;15 1;21 1
+feedback	3 1
+feel	41 2
+felt	30 1
+female	18 2;46 5
+fiction	21 1
+fifty	6 1
+fight	6 1;38 1
+fighting	28 1
+file	38 1
+filed	7 1;19 1;35 2
+fill	37 1
+film	10 4;14 1;21 7;25 3;30 3;39 1
+films	10 1;22 1;25 1
+final	6 1;21 1
+finalised	10 2
+finally	4 1
+financed	7 1
+financial	45 1
+financing	45 1
+find	0 1;17 1;39 1;41 2;47 2
+finding	32 1
+finds	39 1
+finish	6 1
+fire	24 1
+firefighting	24 1
+firm	3 1;11 1
+firmly	6 1
+fit	2 1
+flat	41 1
+flights	24 2
+flood	23 1
+floors	10 1
+flours	1 1
+flower	11 1
+flowers	11 1
+flying	9 1;24 2
+focuses	3 1
+focusing	19 1
+focussing	17 1
+food	29 1
+foot	6 1;43 1
+footage	18 1
+football	29 2
+forced	29 1
+forces	28 1
+fore	5 1
+foreign	28 1
+forensics	3 1
+forest	23 1
+forgeries	0 1
+forgery	0 1
+formed	27 1
+founder	27 1
+free	1 2;3 1;38 1;47 2
+freelance	27 1
+freight	39 1
+frequency	24 1
+fresh	12 1
+friends	5 1;19 1;29 2;33 1;34 1
+friendship	19 1
+front	3 1;6 2
+fruit	27 2
+frustrating	47 1
+frustratingly	41 1
+fuel	48 1
+fuelling	27 1
+full	3 2;12 1;15 1
+functionality	40 1
+functionaries	14 1
+functionary	14 1
+fund	32 1
+funeral	34 1
+future	42 1
+futures	32 1
+gadgets	47 1
+game	1 2;6 1;46 2
+gamers	2 1;46 1
+games	46 4
+gaming	2 1
+gangster	10 1
+gardener	11 1
+gardening	11 1
+garnered	20 1
+gate	16 1
+gathered	34 1
+gear	47 1
+gearbox	4 1
+gender	46 1
+generally	17 1
+girl	5 1;22 1;39 2
+girlfriend	33 1
+girls	30 1;37 1
+give	6 1
+giving	18 1;49 1
+glass	43 1
+glasses	11 1
+glorious	33 1
+gluten	1 6
+godsend	1 1
+gold	32 4;49 1
+golf	47 1
+good	17 3;47 1
+goods	47 1
+gossip	19 2
+government	5 2;7 4;8 3;13 1;14 1;28 1;31 3;35 3;38 3;45 1
+grace	37 1
+grains	1 1
+grand	34 1
+grass	1 1
+grassroots	27 1
+gravity	35 1
+great	17 1
+greater	24 1
+greats	17 1;37 1
+grey	12 2
+groom	42 1
+grossing	21 1
+ground	28 1
+grounds	45 1
+group	3 1;26 1;28 1;38 1
+groups	28 1
+growing	3 1
+grown	39 1
+growth	27 1
+guardians	24 1
+guerrilla	14 1
+guess	20 1
+guessed	2 1
+guilty	0 1;45 2
+gun	24 1
+gynaecologist	8 1
+habits	1 1
+hack	3 1
+hackers	3 2
+hacking	3 1
+hails	5 1
+hair	12 2
+hairstyle	12 1
+halt	24 1
+hand	24 1
+handing	6 1;29 1
+handle	36 1
+hands	32 2
+hang	45 1
+hanged	45 1
+happened	10 1;24 1
+happy	30 1
+harass	39 1;46 1
+harasser	18 1
+harassment	18 1
+hard	3 1;19 1;24 1;30 1;33 1
+harm	39 1
+hastened	32 1
+hat	6 1
+haveli	39 1
+head	34 1;39 1
+headache	3 1
+headed	38 1
+heads	12 1
+health	5 1;8 4
+heard	28 1;29 1
+hearing	35 1;46 1
+heart	19 1
+hearts	30 1
+held	3 1;7 1;45 1
+helped	27 2
+helper	47 1
+helpers	47 2
+helps	47 1
+hide	22 1
+hierarchical	46 1
+high	3 1;7 1;17 1;24 1;43 1
+higher	8 1
+highest	21 1
+highlight	12 1
+hindu	13 1
+historical	21 1
+history	21 1;37 1;47 1
+hit	6 1;34 1;41 1
+hitting	12 1;32 1
+hold	43 1
+holding	26 1
+holiday	32 1
+home	24 1;26 1;39 1;41 5;47 1
+hometown	34 1
+honor	42 1
+honour	34 1
+hope	40 1
+hoped	11 1
+hopes	37 1
+hospital	8 2
+hospitals	8 2
+hostile	46 1
+hostility	46 1
+hosts	6 1
+hot	5 1;12 1
+hotel	43 1;45 1
+hour	47 1
+hours	16 2;19 1;32 1
+house	41 1
+http	13 1
+humidity	41 1
+hunting	23 2
+hurt	27 1
+husband	22 1;42 1
+i701	40 2
+iBall	40 2
+iOS	41 1
+idea	41 1;42 1;47 1
+ideal	17 1
+identified	26 1
+identify	8 1
+ideological	13 1
+idols	37 1
+ignorance	5 1
+iits	13 1
+illegal	35 1
+illiquid	32 1
+illusion	43 1
+illustrations	15 1
+images	11 1;36 1
+immediately	35 1
+impaired	39 1
+impersonate	7 1
+implant	11 4
+implanted	11 1
+implementation	27 1
+importance	17 1;49 1
+important	24 1
+impossible	43 1
+impressed	33 1;42 1
+impressive	2 1;6 1
+improve	11 1
+inShare	44 1
+inaugurated	8 1
+inauguration	8 1
+incident	3 2;24 1;38 1
+incidents	24 1
+include	12 1
+included	0 1;7 1;27 1
+including	0 1;3 1;6 1;12 1;45 1
+incorporated	7 1
+incorporating	42 1
+increase	8 1;46 1
+increased	46 1
+increasing	1 1;8 1
+increasingly	0 1;24 1
+incursions	24 1
+india	13 3
+indianexpress	13 1
+indoor	41 1
+induced	6 1
+infidelity	19 2
+information	3 7;5 2
+informed	5 1;45 1
+informing	35 1
+infrared	36 1;41 1
+infrastructure	8 1
+infringed	29 1
+infuriate	40 1
+initially	6 1;24 1
+initiated	27 1
+injuries	34 2;38 1
+innings	6 1
+innocence	45 1
+innovate	27 1
+innovation	27 1
+insists	39 1
+installation	41 1
+institute	13 1
+institutes	7 1;13 2
+integrity	35 2
+interact	46 1
+interesting	29 1
+interface	41 2
+internal	3 2
+international	1 1;16 1;17 1
+internationals	6 1
+interrogation	7 1
+interrogations	7 1
+interrupted	14 1
+intersections	31 1
+intervened	18 1
+interventions	14 1
+interview	18 1;22 1;37 1;44 1
+interviews	22 1
+intolerant	1 1
+introduced	2 1
+introduction	31 1
+invest	49 1
+investigate	3 1;7 1
+investigating	7 1
+investigation	3 1
+investigative	28 1
+investment	49 1
+investors	32 1
+involved	7 2;19 1;45 1
+involvement	7 1
+involves	3 1
+involving	7 1
+irregularities	7 1
+islands	43 1;49 1
+isn	41 1
+issue	0 1;5 1;38 1
+issued	7 1
+issues	1 1;13 1
+issuing	35 2
+item	47 1
+items	47 2
+jabs	18 1
+jail	45 3
+jewellery	12 1
+job	41 1
+jobs	7 1
+joined	3 1;34 1
+joke	40 1
+journalist	27 1;30 1
+journalists	28 3
+judge	45 1
+jumpy	24 1
+junk	40 1
+karaoke	33 2
+keen	11 1
+key	0 1
+kicks	39 1
+kidnapped	28 3
+kids	15 1;29 1
+killed	9 1;23 1;28 1;34 1;45 1
+killer	40 1
+killers	38 2
+kind	24 1
+kinds	24 1
+king	19 1
+kitchen	47 1
+km	31 1
+kms	36 1
+knew	42 1
+knowledge	5 1
+lack	32 1
+lady	10 1
+ladylove	16 1
+lakh	4 2;8 1
+lamp	47 1
+landed	16 1
+landing	24 1
+landmarks	24 1;45 1
+lane	31 1
+languages	21 1
+large	27 3
+larger	2 1
+largest	0 1
+late	3 1;6 1
+latest	25 1;40 1
+launch	2 1;40 1
+launched	2 1
+law	3 1;35 1;45 1
+lawn	24 1
+lawyer	38 1
+lead	21 1;25 1;30 1
+leader	7 1
+leaders	7 1
+leading	3 1;10 1
+leads	39 1
+league	4 1
+leak	3 1
+leaked	3 1
+learned	19 1
+leave	1 1;10 1;41 1
+leaving	6 1;24 1
+led	7 1;11 1;19 1;31 2;38 1;45 1
+left	0 1;28 1;29 1;32 1
+leg	6 3
+legend	1 1
+lemon	12 2
+lesson	18 1
+lets	41 1;47 1
+letter	9 1
+level	1 2;32 1;41 1
+levels	4 1;32 1
+library	0 1
+life	8 1;29 1;43 1;45 1
+light	1 1;7 1;36 1
+likes	1 1;29 1
+line	38 1;40 1;41 1
+lined	26 1
+lines	11 1
+linking	41 1
+links	3 1;26 1
+lion	23 4
+lionesses	23 1
+lions	23 1
+liquidity	32 1
+list	3 1;29 2;41 1;49 2
+listen	1 1
+listened	42 1
+lists	24 1
+lit	36 1
+litre	4 6
+lives	29 1
+living	30 1
+ll	15 1;37 1;41 2;49 1
+load	47 1
+loading	47 1
+lobby	18 1
+local	47 2
+located	43 1
+locating	24 1
+location	41 2
+locations	8 1;24 1
+locked	9 1
+lone	6 1
+long	4 1;10 1;14 2;15 1;18 1;27 1
+looked	30 1
+lose	1 1;46 1
+losers	46 1
+losing	46 2
+loss	11 1
+losses	32 1
+lost	15 1;39 1
+lot	12 1;41 1
+lots	12 1
+loud	14 1
+love	42 1;48 1
+lovely	12 1
+lovers	48 1
+lovingly	1 1
+lows	32 1
+luck	42 1
+lulls	14 1
+lunch	6 1
+luxury	45 1
+lyrics	33 1;42 1
+machines	24 2
+macular	11 2
+magic	1 1
+magical	6 1
+maid	42 1
+maiden	6 1;8 1
+mail	47 1
+main	44 2
+maintain	46 1
+maintained	5 1
+maintenance	8 1;27 1
+major	7 1;8 1;27 2;32 1
+makeup	12 3
+making	27 1;31 1
+male	46 1
+males	46 4
+man	0 1;6 1;18 4;19 1;24 1
+managed	6 2
+management	31 1
+mantra	1 1
+manual	4 2;41 1
+manufactured	11 1
+manufacturers	40 1
+manuscript	15 2
+maps	3 1
+marble	36 1
+mark	44 1
+market	0 1;4 1;27 1;32 3;41 1;48 1
+markets	32 2
+marking	21 1
+marks	44 1
+marriage	19 1
+married	3 1;22 3
+mass	3 1
+massive	43 1
+master	45 1
+masterminds	45 1
+masters	0 2;13 1
+match	1 1;39 1
+matching	3 1
+matchmaking	3 1
+material	24 1
+matter	7 1;35 1
+means	41 1
+measures	23 1
+media	5 2;14 1;18 1;19 1;23 1;28 1
+medical	1 1;7 1;8 2
+medley	42 1
+meeting	31 1
+meetings	5 1
+meets	39 1
+megastar	25 1
+member	3 3
+members	3 1;26 1;45 1
+men	28 1;46 6
+mentioned	19 1
+mercy	38 2;45 1
+mere	23 1
+merrily	39 1
+mess	31 1
+message	3 1;29 1
+messages	3 1
+met	11 1
+meter	24 1
+mid	2 1;7 1
+middle	6 1
+middlemen	7 2
+midwicket	6 1
+mile	47 2
+militant	38 1
+million	3 1;11 1;18 1;20 1;36 1
+millions	3 1
+miniature	11 1
+minimal	12 1
+minister	5 2;7 1;24 1
+ministry	13 1;28 1
+minnows	6 1
+minor	41 1
+mint	12 1
+minute	18 1;24 1;32 2;47 1
+minutes	32 1;47 1
+misdemeanours	35 1
+missing	28 1
+mission	37 1
+mistake	29 1
+mitigating	3 1
+mixture	12 1
+mobile	47 1
+mobility	27 1
+mode	48 1
+model	37 2;47 1
+models	2 1;41 1
+modes	41 1
+modest	41 1
+mom	20 1
+moment	41 1;43 1
+money	40 1
+monochrome	12 1
+monsoon	12 1
+month	2 1;10 1;11 1;17 1;32 1;47 1
+monthly	47 1
+months	24 1;32 1
+morning	11 1
+mosque	26 1
+mother	39 2
+motherhood	22 1
+motives	13 1
+motorsport	34 1
+mountable	41 1
+move	31 1;32 1;47 3
+movers	47 1
+moves	13 1;32 1
+movie	25 1
+moving	47 3
+mowing	6 1
+multi	27 1
+multiple	4 1;19 1
+music	10 1;19 1;42 1
+musical	42 1
+mysteriously	29 1
+named	5 1;19 1
+names	3 1;39 1
+national	8 1;45 1
+natural	43 1
+neat	14 1
+negative	46 1
+neon	12 2
+nerves	24 1
+net	12 1;27 1
+network	3 1;41 1
+networks	3 1
+news	0 1;19 1;24 1;26 1
+newspaper	18 1
+nice	17 1
+night	24 1
+north	28 1
+northern	28 1
+noted	13 1
+notice	29 1;35 2;40 1
+nuclear	13 1;24 1
+nude	3 1
+number	8 2;24 3;34 1;36 1
+numbers	11 1;23 1
+oblivious	48 1
+obtained	35 1;44 1
+obtaining	35 1
+occasions	24 1
+occurred	32 1
+of8xJFd1	13 1
+offer	2 1
+offered	3 1
+offers	47 1
+office	21 1;24 1;25 1;30 1
+officer	18 3;35 1
+offices	45 1
+official	36 1
+officially	20 2
+officials	7 3;23 3
+offshore	43 1
+onboard	20 1
+ongoing	3 1
+online	2 1;3 3;18 1;24 1;41 2;46 1
+open	29 1
+opened	31 2;32 1
+opening	6 1;21 1
+operates	3 1
+operation	11 1
+operator	24 2
+opponent	6 1
+opposition	13 1
+option	3 2
+options	4 1
+order	2 1;6 1;7 1;35 1
+orders	32 1
+organ	13 1
+organized	7 2
+original	30 1
+originally	5 1
+ounce	32 3
+outdoor	41 1
+outfit	12 1
+outlet	24 1
+outright	24 1
+outsourcer	27 1
+ovation	42 1
+overcome	43 1
+overhauling	1 1
+overs	6 1
+pack	47 1
+package	27 1
+packed	47 1
+paediatrician	8 1
+page	18 1
+pages	37 1
+paid	3 1
+pains	1 1
+paint	19 1
+painter	0 1
+paintings	0 5
+pair	19 1;25 1
+paired	12 1
+palace	24 3
+paparazzi	24 1
+paradise	49 1
+parallel	30 1
+parent	3 1
+parents	7 1;9 1;39 1
+part	7 1;19 1;21 1;30 1;42 1
+parties	3 1;13 1
+parts	21 1
+party	14 2
+passports	35 5
+path	1 1;14 1
+patient	8 1;11 1
+patients	8 3;11 1
+pattern	14 1;44 1
+paving	32 1
+pay	9 1;47 1
+paying	11 1
+peasant	14 1
+pendant	39 1
+people	7 4;8 1;9 1;11 1;24 2;30 2;38 1;40 1;45 3
+peppy	12 1
+percent	27 1
+perfect	22 1
+perform	30 1
+performance	33 2;42 1;46 1
+performances	6 1;22 1
+performed	46 1
+performing	46 1
+period	32 1
+peripheral	8 1;11 1
+person	3 1;22 1;41 1
+personal	3 3;47 1
+personnel	24 1
+persons	38 1
+pet	15 1
+petition	45 1
+petitioner	35 1
+phase	17 1
+phone	47 1
+phones	2 1
+photo	29 1;36 2;37 1;38 1
+photography	21 1
+picked	16 1
+picture	47 1
+pictures	3 2;29 1
+piece	13 1;49 1
+pigmentosa	11 1
+pilot	9 2
+pink	12 2
+pinpoint	24 1
+pint	30 1
+place	40 1;45 1
+places	13 1;24 1
+plan	8 1
+plane	9 2
+planet	36 1
+planning	26 1
+platform	17 1
+play	10 1;48 1
+player	29 2
+players	17 1;43 1;46 7
+playing	1 1;12 1;46 1
+plays	29 1
+pleaded	0 1
+pleas	35 1
+pleasant	46 1
+pledged	9 1
+plenty	40 1
+pluck	1 1
+plumb	6 1
+point	31 1
+points	3 1
+police	0 1;7 2;18 4;45 1
+political	13 1;14 1;45 1
+politicians	7 4
+poor	8 1;14 1
+poorly	46 2
+popping	14 1
+popular	12 1
+popularly	7 1
+population	23 2
+pose	46 1
+poses	43 1
+posh	49 1
+positioned	2 1
+positive	21 1;46 1
+possibly	32 2
+post	6 1
+posted	3 4;8 1;18 1
+posting	3 1
+posts	3 1
+potentially	2 1;46 1
+potshots	13 1
+powerful	48 1
+praise	18 1
+pray	39 1
+pre	2 1;7 1
+pregnancy	22 1
+pregnant	20 1;23 1
+preliminary	44 1
+prematurely	41 1
+premier	7 1
+premium	13 1
+prequel	15 1
+present	17 1
+presented	21 1
+preservation	23 1
+president	28 1
+press	17 1;28 1
+prestigious	13 1
+previous	14 1;29 1;31 1;32 1
+previously	3 1;11 1
+prey	40 1
+price	4 2;32 1
+priced	2 1
+prices	2 1;32 1;40 2;48 1
+primary	8 1
+prime	24 1;49 2
+principal	21 1
+prioritised	9 1
+priority	27 1
+prison	45 1
+private	31 2;49 1
+prix	34 1
+problems	31 1
+procedure	45 1
+proceeds	0 1
+process	3 1
+produced	6 1
+produces	17 1
+product	41 1
+production	21 2
+products	1 1;4 1;40 2;41 1
+professionals	3 1
+professors	0 1
+profile	3 4;17 1;24 1
+profiles	3 1
+profit	27 1
+programme	5 2
+progress	27 1
+progressed	1 1
+promise	41 1
+promised	3 1
+promising	40 1
+promote	5 1
+promoting	46 1
+prompted	18 1
+properly	31 1
+properties	49 1
+property	0 1
+proposed	43 1
+prosecution	0 1
+prosecutors	0 1
+prospective	8 1
+protect	36 1;39 1
+protecting	24 1
+protein	1 1
+protesting	45 1
+protests	13 1
+prototype	8 1
+provide	3 1
+providing	8 1
+province	28 1
+provision	8 1
+public	31 1;44 2
+publication	3 1
+publish	3 1
+published	15 1
+purposes	49 1
+push	6 1;32 1
+pushed	38 1
+put	1 1;6 1;11 1;43 1;44 1
+quadcopter	24 2
+quadcopters	24 1
+qualified	44 1
+quality	8 1
+quarter	27 2
+queen	19 1
+questions	22 1;35 1
+quickly	1 1;18 1
+quits	19 1
+quizzes	39 1
+quoted	22 1;27 1
+quotes	22 1
+race	34 1
+racket	7 2
+radioactive	24 1
+radius	24 1
+raid	32 1
+rain	34 1
+raise	41 2
+raises	35 2
+raising	27 1
+rampant	0 1
+random	3 1
+range	2 1
+ranges	4 1
+ranked	6 2
+ranks	7 1
+rapping	33 2
+rare	11 1
+rates	47 1
+reaches	39 1
+reacting	30 1
+reaction	18 1;40 2
+readings	41 1
+ready	22 2
+real	3 1;33 1;49 2
+realised	0 1
+realized	24 1
+reason	23 1;29 1
+rebel	28 1
+rebuild	26 1
+receipts	8 1
+received	24 1;42 1
+recognises	14 1
+recognize	41 1
+reconfiguration	46 1
+reconsider	45 1
+record	1 1;6 1;43 1
+recorded	21 1
+records	3 1;8 1;30 1
+recovery	34 1
+recruitment	7 2
+red	29 1
+reddit	44 1
+redesigning	27 1
+reduce	8 1;41 1
+reducing	47 1
+reef	43 1
+reeling	6 1
+refer	1 1
+reference	14 1
+referred	8 1
+refined	1 1
+reflect	42 1
+reflected	41 1
+refused	31 1;45 1
+regime	28 1
+region	23 1
+regular	8 1;12 1
+regulate	41 1
+regulated	31 1
+reinforcing	46 1
+rejected	45 2
+related	1 1;3 2;11 2
+relations	5 1
+release	3 1;21 1
+released	3 3;7 1;15 1;21 1
+rely	46 1
+remain	45 1;48 1
+remained	6 1
+remarkable	14 1
+remarkably	41 1
+remember	20 1
+reminder	36 1
+reminds	1 1
+remote	41 9;47 1
+remotely	24 1;41 3
+removal	3 1
+remove	3 3;31 1
+removed	6 1
+renewed	14 1
+replaced	0 3
+replacing	0 1;41 1
+report	3 1;6 1;7 1;19 1;22 1
+reported	0 1;3 1;7 1
+reportedly	3 1;10 2;24 1
+reporters	5 1
+reports	3 1;19 3;28 1
+represent	42 1
+representational	49 1
+representative	14 1
+request	47 1
+requesting	3 1
+requests	3 1
+researchers	46 4
+reset	41 1
+residence	24 1
+resist	40 1
+resistance	32 1
+resorting	35 1
+respective	8 1
+respond	10 1;39 1
+responded	46 1
+responding	3 1;46 1
+response	3 1;35 1
+responsible	3 2;7 1;24 2
+rest	10 1
+restore	11 1
+result	11 1;48 1
+results	27 2;46 2
+resuming	6 1
+retain	27 1
+retained	11 1
+retinal	11 2
+retinitis	11 1
+retired	17 1;34 1
+return	41 1;45 1
+returned	36 1;39 1
+returning	15 1
+revamp	27 1
+revamping	12 1
+revealed	25 1;37 1
+revenue	27 1
+reviewed	6 1
+reviews	21 1;47 1
+revocation	35 1
+revoked	35 2
+rewriting	42 1
+rich	14 1
+riders	48 1
+ring	7 1
+ripped	26 1
+rise	27 1;32 1
+risen	23 1
+rising	41 1
+rival	4 1
+robotics	24 1
+rocking	12 1
+role	10 1;22 1;45 1
+roles	21 2
+rolled	4 1
+rollout	2 1
+roof	24 1;43 1
+rooftop	43 1
+room	41 1
+roommates	41 1
+row	30 1
+royal	24 1
+rss	13 1
+rubbishing	22 1
+ruling	5 1
+rumors	19 3
+rumoured	16 1
+rumours	22 1
+run	5 1;6 1;45 1;47 1
+runs	6 1;47 1
+rush	8 1
+salary	3 1
+salutation	41 1
+sanctuary	23 2
+sandals	12 1
+saree	12 5
+satellite	36 1
+scale	7 1
+scam	7 7
+scared	41 1
+scene	12 1;28 1
+schedule	41 2
+scheduled	21 1
+schooled	42 1
+science	45 1
+scientist	13 1
+scoop	24 1
+score	6 1;21 1;24 1
+scrap	31 2
+screams	33 1
+screen	11 1
+screenshot	3 1
+sea	43 1
+searching	24 1
+season	12 1
+secret	3 1
+sections	8 1
+sector	8 1
+secured	3 1
+security	3 2;24 2
+seek	5 1
+seemingly	19 1
+segment	2 1
+segregation	46 1
+seized	18 1
+select	44 1
+selected	3 1;30 1
+selecting	44 1
+sell	47 2
+sellers	32 2
+selling	32 1
+sells	47 2
+sending	32 1
+sends	47 3
+senior	7 1
+sensitive	41 1
+sensitivity	1 1
+sentence	45 3
+sentenced	0 1
+separate	45 1
+separated	39 1
+separatist	38 1
+serial	45 1
+series	36 1
+seriousness	35 1
+servers	3 1
+service	3 4;34 1;47 2
+services	3 1;8 1;27 3;44 4;47 1
+serving	45 1
+session	6 3
+set	2 1;8 3;41 3
+setting	41 3
+settings	41 3
+settle	24 1
+sexist	46 1
+sexual	3 1
+shake	39 1
+shaped	41 1
+share	27 1;29 1
+shares	27 1
+sharing	29 1
+sharp	12 1
+shattering	30 1
+sheer	7 1
+sheets	44 1
+ship	2 1
+shirt	18 1
+shocking	19 1
+shocks	18 1
+shoes	37 1
+shook	45 1
+shoot	10 1;37 1
+shooters	24 1
+shooting	25 1
+shop	11 1
+shopping	11 1
+shoreline	43 1
+short	32 1;40 1
+shortly	28 1;32 1;42 1;45 1
+shorts	14 1
+shot	21 1
+shots	24 1
+shouldn	24 1
+shouted	26 1
+shouting	18 1
+shouts	18 1
+show	30 1;33 1;35 1;38 1
+showing	44 1
+shown	24 1
+showroom	4 1
+shows	41 1
+shrank	23 1
+shut	3 1;41 1
+shutting	29 1
+shy	1 1
+sibling	2 1
+side	5 1;6 1;36 1
+sight	11 1;41 1
+sign	47 1
+signal	24 1
+silver	12 1
+similar	12 1;24 1
+simple	12 2
+simply	14 1;41 1
+simultaneously	21 1
+singer	19 3
+singing	42 1
+single	1 1
+sister	42 1;45 1
+sisters	42 3
+sit	40 1
+site	3 3;19 2;29 1;47 1
+sites	3 1
+situation	28 1;29 1
+size	37 2
+sized	30 1
+skills	33 1
+slapping	18 1
+slaps	18 1
+slaying	33 1
+sleeping	41 1
+sleeves	12 1
+slide	32 1
+slippage	32 1
+slogans	26 1
+slowed	31 1
+small	24 1;47 1
+smaller	2 1
+smart	41 2
+smartphone	41 1
+smartphones	2 1
+smooth	2 1
+snap	47 1
+sneaking	19 1
+snippets	3 1
+soared	23 1
+soccer	29 2
+social	5 1;18 1;23 1;46 1
+socially	46 1
+software	41 2
+sold	0 2;32 1
+solid	6 1;12 1
+solution	31 1
+song	20 1;33 1
+songs	42 2
+sophisticated	41 1
+sounded	41 1
+soundtrack	21 1
+source	10 1
+sources	16 1;19 2;45 1
+southern	0 1;10 1
+space	14 1;36 1;41 1
+spare	40 1
+spasms	1 1
+special	25 2
+specific	3 2
+specifications	2 1
+spectators	43 1
+speculating	32 1
+speech	39 2;42 1
+speed	4 3
+speeds	41 1
+spell	6 1
+spinner	6 4
+spirit	45 1
+split	19 3;39 1
+spoke	30 1
+spoken	9 1
+sporting	47 1
+sports	43 1
+spots	39 1
+spotted	0 1;23 2
+sprang	16 1
+spread	43 1
+staff	27 1
+staged	6 1
+stages	44 1
+stamina	14 1
+stand	6 1
+standard	41 1
+standing	42 1
+star	1 1;20 1;29 1;30 3;33 1
+stars	22 2
+start	6 2;25 1
+started	0 1;1 1
+starting	27 2
+starts	39 1
+startup	47 1
+state	4 1;5 2;7 6;23 1
+statement	3 3;12 1;27 1
+statements	46 2
+status	46 4
+stayed	35 1
+stealing	0 1
+step	3 1;16 1
+sthash	13 1
+stole	0 1
+stolen	0 2
+stomach	1 1
+stood	30 1;32 1
+store	47 2
+storeroom	0 3
+story	29 1;42 1
+strange	39 1
+strategy	27 2;32 1
+streets	49 1
+strict	44 1
+strikes	28 1
+strong	6 1;18 1
+struck	6 1
+struggled	27 1
+students	0 1;26 1
+study	46 1
+stuff	47 1
+stump	6 1
+stumps	6 1
+stunning	36 1;37 1;43 1
+stupid	41 1
+subject	1 1;5 1;22 1
+submission	35 1
+submissive	46 1
+submit	44 1
+subsequently	19 1
+substituted	0 1
+subtle	12 1
+success	1 1;6 2
+successful	41 1;44 1
+successfully	6 1
+sudden	19 1;32 1
+sufficiently	11 1
+suggest	16 1;46 2
+suicide	38 1
+summer	15 1;20 1
+sun	36 1
+super	48 2
+superstar	10 1
+supervisor	21 1
+support	2 1;32 2
+supporting	21 1
+surely	12 2
+surfaced	7 1;33 1
+surfboard	47 1
+surged	27 1
+surgery	11 1
+surprise	16 1
+surprised	0 1;24 1
+suspect	22 1
+suspected	9 1;19 2;26 1
+sustain	14 1
+sustained	34 2;38 1
+swirled	19 1
+sympathy	38 1
+system	3 1;24 2;31 1;41 1
+tablet	40 1;47 1
+tabloid	19 1
+takes	39 1
+talked	1 1
+talks	10 1
+tall	43 1
+tasks	11 1
+taught	46 1
+taxi	47 1
+teaches	18 1
+teaching	41 1
+team	3 1;6 1;17 3;19 1;27 1;29 1
+teams	3 1
+technical	3 1
+technically	47 1
+teenagers	46 1
+temperature	41 7
+temperatures	41 3
+tend	40 1
+tennis	1 2;43 4
+termed	13 1
+terms	5 1;29 1;47 1
+terribly	0 1
+terror	45 1
+terrorism	3 1
+test	7 1;8 1;41 1;43 1
+testing	8 1;27 1
+tests	7 3;8 1
+theory	24 1
+thermostat	41 1;47 1
+thermostats	41 1
+thin	32 1
+thinks	39 1
+thought	7 1;26 1;28 1;49 1
+thousands	28 1;41 1
+threat	46 1
+threatened	3 1
+throngs	18 1
+thrown	46 1
+ticket	39 1
+tide	6 1
+tied	12 1
+tight	1 1
+time	0 1;5 1;11 2;16 1;19 1;22 1;24 1;25 1;30 1;45 1
+times	18 1;46 1
+tips	29 1
+titled	18 1
+titles	1 1
+toast	42 1
+today	4 1;8 1;45 1
+told	0 3;3 1;5 1;10 1;25 1;35 1;42 1
+tomatoes	1 1
+tonne	32 1
+tonnes	32 2
+top	3 1;6 3;44 1;49 1
+topper	44 1
+topping	42 1
+torn	1 1
+toss	6 1
+total	4 1;11 1;27 1
+totally	19 1
+touch	24 1;41 1
+touched	3 1
+town	26 1;39 1
+townhouse	49 1
+towns	26 1
+tracked	27 1
+tracking	41 1
+traders	32 1
+trading	32 1
+traditional	1 1
+traffic	31 2
+train	39 1
+transactions	3 1
+transfer	7 1
+transmission	4 1
+transport	31 1
+trapping	6 1
+travel	26 1;35 1;48 1
+treated	33 1;46 1
+trend	12 1;20 1
+trends	12 1
+trick	6 1;41 1
+tricks	29 1
+trigger	41 1
+triggered	3 1
+trim	4 1
+trip	47 1
+triple	34 1
+troubled	24 1
+troubling	46 1
+truck	47 1
+trust	40 1
+trustworthiness	35 1
+tunes	4 1
+turf	1 1
+turn	12 1;41 4
+turned	6 1;13 1;27 1;45 1
+turning	15 1;24 1;41 2
+turns	39 1
+tweet	5 1
+tweeted	5 2;36 1
+type	47 2
+typically	47 1
+ultraviolet	36 1
+umpire	6 1
+unable	11 1;24 1
+unannounced	24 1
+unauthorized	3 1
+unaware	1 1
+unbeaten	6 1
+unbelievable	40 1
+unclear	18 1;45 1
+uncovered	7 1
+underdog	14 1
+underprivileged	14 1
+undersea	43 1
+understand	24 1
+underwater	43 4
+undeserving	7 1
+undying	42 1
+unfaithful	19 1
+unidentified	24 1
+union	19 1;38 1
+unit	8 1;10 1;41 2
+units	41 3
+universal	41 1
+university	0 3;26 1
+unobtrusive	41 1
+unparalleled	1 1
+unsavoury	46 1
+untitled	10 1;25 1
+unwelcome	24 1
+upcoming	25 1
+updates	3 1
+updo	12 1
+uprooted	6 1
+urge	40 1
+user	3 1;29 1
+users	3 4
+utility	41 1
+vaguely	41 1
+van	6 2
+variants	4 1
+variety	36 1
+ve	3 1;37 1
+vehicle	4 2;34 1
+vehicles	31 2
+versa	41 1
+verses	33 1
+version	37 1
+vice	41 1
+victims	3 1
+victory	1 1;39 1
+video	11 2;18 2;20 1;33 2;46 2
+view	36 1
+views	20 1
+village	39 1
+violation	35 1
+violations	35 1
+visa	35 1
+vision	11 4
+visit	8 1
+visitors	6 4
+visits	24 1
+visual	21 1
+vogue	12 3
+voice	14 1;46 1
+voiced	43 1
+voiceless	30 1
+voices	46 1
+volley	48 1
+volume	32 1
+vulnerable	32 1
+waffle	41 1
+wait	4 1;15 1;37 1
+waited	16 1
+walk	41 1
+wall	41 1
+wanted	1 1;19 1;30 2
+war	1 1
+warm	41 1
+warned	3 1
+warning	41 1
+waste	40 1
+watched	18 1;27 1;37 1
+watching	39 1
+waters	23 1;43 1
+wave	32 1
+wavelengths	36 1
+ways	31 1;36 1
+weaker	8 1
+weakest	32 1;40 1
+weapons	45 1
+website	3 1
+websites	3 1
+wedding	42 2
+wee	16 1
+weeds	11 1
+week	8 1;10 1
+weekend	20 1
+weeks	22 1
+welcomed	31 1
+wept	26 1
+western	23 1
+wheat	1 2
+wheeler	48 1
+whipping	20 1
+white	11 1;15 1
+wicket	6 3;17 1
+wicketkeeper	6 1
+wickets	6 2;17 3
+widely	27 1
+widespread	23 1;27 1
+widow	15 1
+wife	18 1;19 1;38 1
+wildlife	23 1
+win	1 2;27 3
+window	41 1
+wink	41 1
+winners	46 1
+winning	46 1
+wins	1 2;27 2
+witnessed	48 1
+woman	37 1;46 1
+women	46 4
+won	6 1;22 1;30 1;41 1
+wonderful	22 3
+wooed	43 1
+wore	12 1
+work	0 2;3 2;14 1;15 2;19 2;27 2;29 1;31 1;41 1;47 1;48 1
+worked	10 1;25 1;30 1
+working	17 1;28 2
+works	0 3;47 1
+workshop	30 1
+world	0 1;1 1;3 3;34 2;49 2
+worldwide	21 1
+worn	11 1
+worshippers	39 1
+worst	45 1
+worth	0 1;32 2
+wouldn	22 1
+wrestle	39 1
+write	46 2
+written	21 1
+wrong	14 1;29 1
+wrote	19 1;27 1;29 2
+www	12 3
+year	0 1;8 2;14 1;27 4;28 2;30 1;32 1;33 1;34 1;37 1;45 2
+years	0 1;15 1;22 2;27 2;28 1;31 1;39 1;40 1;41 1;48 1
+yellow	12 2;18 1
+young	1 2;39 1;46 1
+yuan	0 2
+yummy	29 1

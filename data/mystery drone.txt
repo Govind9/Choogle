@@ -1,0 +1,17 @@
+With quadcopters and similar flying machines landing on people's wish lists with ever greater frequency, we probably shouldn't be surprised that they seem to be turning up unannounced at more and more locations, on some occasions causing confusion, annoyance, and even outright alarm.
+
+A number of remotely controlled copters have been disturbing a royal residence in Spain in recent days, with security at Zarzuela Palace in Madrid clueless as to who's responsible for the unwelcome incursions.
+
+The palace, home to King Felipe VI and his family, as well as former King Juan Carlos and Queen Sofia, has received visits from the drones across a number of evenings, according to Spanish online news outlet El Confidencial (via SputnikNews).
+
+The palace's Royal Guards have been searching for those responsible, but have so far been unable to catch anyone with a controller in their hand. Security personnel initially believed it could be paparazzi shooters trying to score a scoop, though this theory has apparently since been dismissed.
+
+Attempts to block the signal between the controller and the flying machines have reportedly failed, leaving the guardians of the palace increasingly concerned about who's behind the night flights.
+
+Related: Hobby drones halt firefighting efforts in California
+
+It's not hard to understand why they're getting a bit jumpy about this kind of thing -- only a few months ago in Japan a man was arrested for using a drone to dump a small amount of radioactive material onto the roof of the prime minister's office. Meanwhile, French authorities have been troubled by unidentified quadcopter flights at a number of its nuclear facilities across the country, as well as over famous landmarks in and around Paris. Of course, there was also the high-profile incident in January where someone crashed a drone onto the White House lawn before security even realized what'd happened.
+
+And the fact that someone has now shown it's possible to fire shots from a gun attached to a quadcopter will hardly settle the nerves of those charged with protecting important people and places.
+
+For these kinds of incidents, one countermeasure would be a system that's able to pinpoint the operator in as fast a time as possible. French robotics company ECA Group has been developing such a system, and says its autonomous drone is capable of locating a drone operator in a 700-meter radius in less than a minute. Spain had better get in touch.

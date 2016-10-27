@@ -1,0 +1,51 @@
+1477578846	50
+0	china curator.txt	/home/dnivog/C++/Choogle/data/china curator.txt
+1	novak djokovic diet.txt	/home/dnivog/C++/Choogle/data/novak djokovic diet.txt
+2	samsung.txt	/home/dnivog/C++/Choogle/data/samsung.txt
+3	hackers.txt	/home/dnivog/C++/Choogle/data/hackers.txt
+4	hyundai creta.txt	/home/dnivog/C++/Choogle/data/hyundai creta.txt
+5	parineeti chopra.txt	/home/dnivog/C++/Choogle/data/parineeti chopra.txt
+6	bangladesh.txt	/home/dnivog/C++/Choogle/data/bangladesh.txt
+7	vyapam scam.txt	/home/dnivog/C++/Choogle/data/vyapam scam.txt
+8	delhi CM.txt	/home/dnivog/C++/Choogle/data/delhi CM.txt
+9	german.txt	/home/dnivog/C++/Choogle/data/german.txt
+10	radhika apte.txt	/home/dnivog/C++/Choogle/data/radhika apte.txt
+11	bionic eye implant.txt	/home/dnivog/C++/Choogle/data/bionic eye implant.txt
+12	celebs-neon saree.txt	/home/dnivog/C++/Choogle/data/celebs-neon saree.txt
+13	iit or anti india.txt	/home/dnivog/C++/Choogle/data/iit or anti india.txt
+14	rahul gandhi.txt	/home/dnivog/C++/Choogle/data/rahul gandhi.txt
+15	long lost dr.seuss.txt	/home/dnivog/C++/Choogle/data/long lost dr.seuss.txt
+16	ranveer singh.txt	/home/dnivog/C++/Choogle/data/ranveer singh.txt
+17	dravid.txt	/home/dnivog/C++/Choogle/data/dravid.txt
+18	female cop.txt	/home/dnivog/C++/Choogle/data/female cop.txt
+19	country singer affair.txt	/home/dnivog/C++/Choogle/data/country singer affair.txt
+20	summer of nae nae.txt	/home/dnivog/C++/Choogle/data/summer of nae nae.txt
+21	baahubali.txt	/home/dnivog/C++/Choogle/data/baahubali.txt
+22	kareena shahid.txt	/home/dnivog/C++/Choogle/data/kareena shahid.txt
+23	indian lion cubs.txt	/home/dnivog/C++/Choogle/data/indian lion cubs.txt
+24	mystery drone.txt	/home/dnivog/C++/Choogle/data/mystery drone.txt
+25	amitabh bachchan.txt	/home/dnivog/C++/Choogle/data/amitabh bachchan.txt
+26	funeral at turkey.txt	/home/dnivog/C++/Choogle/data/funeral at turkey.txt
+27	vishal sikka effect.txt	/home/dnivog/C++/Choogle/data/vishal sikka effect.txt
+28	spanish kidnapping.txt	/home/dnivog/C++/Choogle/data/spanish kidnapping.txt
+29	instagram apologises.txt	/home/dnivog/C++/Choogle/data/instagram apologises.txt
+30	kabir khan.txt	/home/dnivog/C++/Choogle/data/kabir khan.txt
+31	arvind kejriwal.txt	/home/dnivog/C++/Choogle/data/arvind kejriwal.txt
+32	gold.txt	/home/dnivog/C++/Choogle/data/gold.txt
+33	danielle radcliffe.txt	/home/dnivog/C++/Choogle/data/danielle radcliffe.txt
+34	f1 bidding.txt	/home/dnivog/C++/Choogle/data/f1 bidding.txt
+35	devyani khobragade.txt	/home/dnivog/C++/Choogle/data/devyani khobragade.txt
+36	earth image.txt	/home/dnivog/C++/Choogle/data/earth image.txt
+37	ashley graham.txt	/home/dnivog/C++/Choogle/data/ashley graham.txt
+38	jayalalithaa.txt	/home/dnivog/C++/Choogle/data/jayalalithaa.txt
+39	bajrangi.txt	/home/dnivog/C++/Choogle/data/bajrangi.txt
+40	iball slide.txt	/home/dnivog/C++/Choogle/data/iball slide.txt
+41	top tech.txt	/home/dnivog/C++/Choogle/data/top tech.txt
+42	bridesmaids.txt	/home/dnivog/C++/Choogle/data/bridesmaids.txt
+43	underwater tennis court.txt	/home/dnivog/C++/Choogle/data/underwater tennis court.txt
+44	ias.txt	/home/dnivog/C++/Choogle/data/ias.txt
+45	yakub menon.txt	/home/dnivog/C++/Choogle/data/yakub menon.txt
+46	online trolls.txt	/home/dnivog/C++/Choogle/data/online trolls.txt
+47	travel apps.txt	/home/dnivog/C++/Choogle/data/travel apps.txt
+48	fast indian bikes.txt	/home/dnivog/C++/Choogle/data/fast indian bikes.txt
+49	billionare real estate.txt	/home/dnivog/C++/Choogle/data/billionare real estate.txt
