@@ -2,10 +2,10 @@
 
 int main ()
 {
-	string begin = "/home/dnivog/C++/Choogle/data";
+	string begin = "./data";
 	get_all_file_paths(begin);
 	mining();
-	serialize();
-	//display_paths();
+	deserialize();
+	display_index();
 	return 0;
 }

@@ -25,8 +25,8 @@ void deserialize()
 		struct File obj;
 		file >> obj.id;
 		file.get(c);
-		cout << obj.id << endl;
 		
+		str = "";
 		while (true) {
 			file.get(c);
 			if (c == '\t')
@@ -35,13 +35,14 @@ void deserialize()
 		}
 		obj.name = str;
 
+		str = "";
 		while (true) {
 			file.get(c);
 			if (c == '\n')
 				break;
 			str += c;
 		}
-		file >> obj.path;
+		obj.path = str;
 		Files.push_back(obj);
 	}
 	file.close();
@@ -51,9 +52,15 @@ void deserialize()
 	string word;
 	int id;
 	int freq;
-	while (!file.eof()) {
-		file >> word;
-		file.get(c);
+	while (file.get(c)) {
+		word = "";
+		while (c != '\t') {
+			word += c;
+			file.get(c);
+		}
+
+		id = 0;
+		freq = 0;
 		while (c != '\n') {
 			file >> id;
 			file >> freq;
@@ -133,7 +140,7 @@ void display_index()
 	for (ITR i = word_hash.begin(); i != word_hash.end(); ++i) {
 		cout << i->first << " : ";
 		for (itr j = i->second.count_hash.begin(); j != i->second.count_hash.end(); ++j) {
-			cout << j->first->name << " " << j->second << "; ";
+			cout << j->first->id << " " << j->second << "; ";
 		}
 		cout << endl;
 	}
