@@ -6,12 +6,66 @@ long int previous_index_time = 0; //should be set at the time of indexing and st
 
 map <string, Occurence> word_hash;
 
+void search_for(string keyword)
+{
+	if (word_hash.count(keyword) != 1)
+		return;
+	
+	struct Occurence occ = word_hash[keyword];
+
+	for (itr i = occ.count_hash.begin(); i != occ.count_hash.end(); ++i)
+		i->first->is_relevant = true;
+}
+
+void show_results()
+{
+	for (int i = 0, j = 1; i < Files.size(); i++) {
+		if (Files[i].is_relevant) {
+			cout << j++ << "\t" << Files[i].name << "\t" << Files[i].path << endl << endl;
+		}
+	}
+}
+
+void process_query(string query)
+{
+	string str = "";
+	char c;
+
+	//Clean out the relevancy of the previous queries.
+	for (int i = 0; i < Files.size(); i++)
+		Files[i].is_relevant = false;
+
+	for (int i = 0; i < query.length(); i++) {
+		c = query[i];
+
+		if (is_symbol(c)) {
+			if (is_not_a_word(str)) {
+				str = "";
+				continue;
+			}
+			if (is_a_stop_word(str)) {
+				str = "";
+				continue;
+			}
+
+			//We have a genuine keyword.
+			search_for(str);
+			str = "";
+			continue;
+		}
+
+		c = decapitalize(c);
+		str += c;
+	}
+}
+
 inline void clean_sweep()
 {
 	remove(THE_INDEX_FILE);
 	remove(THE_FILES_FILE);
 }
 
+//Implement exception handling, in case the files are missing.
 void deserialize()
 {
 	char c;
@@ -72,6 +126,7 @@ void deserialize()
 	file.close();
 }
 
+//Maybe simply call both of the display functions and redirect their output to the files.
 void serialize()
 {
 	clean_sweep();
@@ -85,8 +140,6 @@ void serialize()
 	file.close();
 
 	file.open(THE_INDEX_FILE);
-	typedef map<string, Occurence>::iterator ITR;
-	typedef map<struct File*, int>::iterator itr;
 
 	for (ITR i = word_hash.begin(); i != word_hash.end(); ++i) {
 		file << i->first << "\t";
@@ -134,9 +187,6 @@ inline string to_string(int i)
 
 void display_index()
 {
-	typedef map<string, Occurence>::iterator ITR;
-	typedef map<struct File*, int>::iterator itr;
-
 	for (ITR i = word_hash.begin(); i != word_hash.end(); ++i) {
 		cout << i->first << " : ";
 		for (itr j = i->second.count_hash.begin(); j != i->second.count_hash.end(); ++j) {
@@ -180,15 +230,20 @@ inline bool is_symbol(char c)
 	return false;
 }
 
+//Add exception handling in case some files do not open.
 void mining()
 {
 	ifstream file;
 	char c;
 	string str;
-
+	
 	for (int i = 0; i < Files.size(); i++) {
-		if (!Files[i].is_modified)
-			continue;
+		if (Files[i].is_modified)
+			//continue;
+		/*
+		  There are some deep issues here hence I am abandoning this feature for now.
+		  Maybe later I will comeback and make this meaning full.
+		*/
 		
 		//Mining the file name.
 		str = "";
@@ -216,7 +271,7 @@ void mining()
 		}
 		file.close();
 	}
-	previous_index_time = time(0); 
+	previous_index_time = time(0);
 }
 
 bool is_modified(struct File *file)
@@ -272,21 +327,27 @@ void get_all_file_paths(string begin)
 	struct dirent *temp;
 	int i = -1;
 
+	//Get the last stored indexing time.
+	ifstream f(THE_FILES_FILE);
+	f >> previous_index_time;
+	f.close();
+
 	root = opendir(begin.c_str());
 
 	while ((temp = readdir(root))) {
-		string name = begin + "/" + temp->d_name;
-		if (check_type(name) == File) {
+		string path = begin + "/" + temp->d_name;
+		if (check_type(path) == File) {
 			struct File file;
 			file.id = ++i;
 			file.name = temp->d_name;
-			file.path = name;
+			file.path = path;
 			file.is_modified = is_modified(&file);
+			file.is_relevant = false;
 			Files.push_back(file);
 			continue;
 		}
-		if (check_type(name) == Dir)
-			get_all_file_paths(name);
+		if (check_type(path) == Dir)
+			get_all_file_paths(path);
 	} 
 	closedir(root);
 }

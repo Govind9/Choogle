@@ -28,34 +28,58 @@ struct File {
 	string name;
 	string path;
 	bool is_modified;
+	bool is_relevant;
 };
 
 struct Occurence {
 	map <struct File*, int> count_hash;
 };
 
+typedef map<string, Occurence>::iterator ITR;
+typedef map<struct File*, int>::iterator itr;
+
+object_type check_type(string);
+
 void clean_sweep();
+
+inline char decapitalize(char);
 
 void deserialize();
 
-void serialize();
+void search_for(string);
 
-inline string to_string(int);
+void process_query(string);
+
+void display_index();
 
 void display_paths();
 
 void get_all_file_paths(string);
 
-bool is_modified(struct File*);
-
-void mining();
-
-inline bool is_symbol(char);
-
 void index(string, struct File*);
 
-void display_index();
+bool is_a_stop_word(string);
+
+bool is_modified(struct File*);
 
 inline bool is_not_a_word(string);
 
-bool is_a_stop_word(string);
+inline bool is_symbol(char c);
+
+void mining();
+
+void process_query(string);
+
+void serialize();
+
+void show_results();
+
+inline string to_string(int);
+
+
+
+
+
+
+
+
