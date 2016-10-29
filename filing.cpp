@@ -48,11 +48,11 @@ void deserialize()
 	file.close();
 
 	file.open(THE_INDEX_FILE);
-	struct Occurence occ;
-	string word;
-	int id;
-	int freq;
 	while (file.get(c)) {
+		struct Occurence occ;
+		string word = "";
+		int id;
+		int freq;
 		word = "";
 		while (c != '\t') {
 			word += c;
@@ -167,6 +167,11 @@ void index(string word, struct File *file)
 	word_hash[word] = occ;
 }
 
+inline char decapitalize(char c)
+{
+	return (c >= 'A' && c <= 'Z')? c - 'A' + 'a': c;
+}
+
 inline bool is_symbol(char c)
 {
 	if ((c <= '/') || (c >= ':' && c <= '@') 
@@ -185,6 +190,19 @@ void mining()
 		if (!Files[i].is_modified)
 			continue;
 		
+		//Mining the file name.
+		str = "";
+		for (int j = 0; j < Files[i].name.length(); j++) {
+			c = Files[i].name[j];
+			if (is_symbol(c)) {
+				index(str, &Files[i]);
+				str = "";
+				continue;
+			}
+			c = decapitalize(c);
+			str += c;
+		}
+		//Mining the contents of the file.
 		file.open(Files[i].path.c_str());
 		str = "";
 		while (file.get(c)) {
@@ -193,6 +211,7 @@ void mining()
 				str = "";
 				continue;
 			}
+			c = decapitalize(c);
 			str += c;
 		}
 		file.close();

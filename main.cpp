@@ -5,7 +5,6 @@ int main ()
 	string begin = "./data";
 	get_all_file_paths(begin);
 	mining();
-	deserialize();
-	display_index();
+	serialize();
 	return 0;
 }
