@@ -9,9 +9,12 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+#include <stdlib.h>
+#include <fcntl.h>
 
-#define THE_INDEX_FILE "Index.txt"
-#define THE_FILES_FILE "Files.txt"
+#define THE_INDEX_FILE "/.Index.txt"
+#define THE_FILES_FILE "/.Files.txt"
+#define ONE_MINUTE 60
 
 using namespace std;
 
@@ -57,6 +60,8 @@ void display_paths();
 void get_all_file_paths(string);
 
 void index(string, struct File*);
+
+void init();
 
 bool is_a_stop_word(string);
 

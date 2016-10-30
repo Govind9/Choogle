@@ -4,7 +4,77 @@ vector <struct File> Files;
 
 long int previous_index_time = 0; //should be set at the time of indexing and stored in some file for retrieval
 
+long int pmt1, pmt2;
+
 map <string, Occurence> word_hash;
+
+string the_dir;
+
+void init()
+{
+	long int modified_at;
+	int fd;
+	the_dir = "/home/";
+	the_dir += getenv("USER");
+	the_dir += "/.Choogle";
+	struct stat s;
+	ifstream file;
+	string path;
+
+	if (stat(the_dir.c_str(), &s) != 0)
+		goto rebuild_dir;
+	
+	if (stat((the_dir + THE_FILES_FILE).c_str(), &s) != 0)
+		goto rebuild_files;
+	modified_at = s.st_mtime;
+	
+	if (stat((the_dir + THE_INDEX_FILE).c_str(), &s) != 0)
+		goto rebuild_files;
+
+	//Read Previous modification times for both files:
+	file.open((the_dir + THE_FILES_FILE).c_str());
+	file >> pmt1;
+	file.close();
+	if (modified_at - pmt1 > ONE_MINUTE)
+		goto rebuild_files;
+	
+	modified_at = s.st_mtime;
+	file.open((the_dir + THE_INDEX_FILE).c_str());
+	file >> pmt2;
+	file.close();
+	if (modified_at - pmt2 > ONE_MINUTE)
+		goto rebuild_files;
+	
+	//Everything set.
+	deserialize();
+	return;
+
+rebuild_dir:
+	mkdir(the_dir.c_str(), 0660);
+rebuild_files:
+	path = the_dir;
+	path += THE_FILES_FILE;
+	cout << path << endl;
+	fd = open(path.c_str(), O_RDWR | O_CREAT, 0660);
+	if (fd == -1)
+		cout << "Linux is being a bitch." << endl;
+	close(fd);
+
+	path = the_dir;
+	path += THE_INDEX_FILE;
+	fd = open(path.c_str(), O_RDWR | O_CREAT, 0660);
+	if (fd == -1)
+		cout << "Linux is being a bitch." << endl;
+	close(fd);
+
+rebuild_index:
+	path = "/home/";
+	path += getenv("USER");
+	path += "/data";
+	get_all_file_paths(path);
+	mining();
+	serialize();
+}
 
 void search_for(string keyword)
 {
@@ -72,6 +142,7 @@ void deserialize()
 	int n = 0;
 	string str;
 	ifstream file(THE_FILES_FILE);
+	file >> pmt1;
 	file >> previous_index_time;
 	file >> n;
 	file.get(c);
@@ -102,6 +173,8 @@ void deserialize()
 	file.close();
 
 	file.open(THE_INDEX_FILE);
+	file >> pmt2;
+	file.get(c);
 	while (file.get(c)) {
 		struct Occurence occ;
 		string word = "";
@@ -130,7 +203,8 @@ void deserialize()
 void serialize()
 {
 	clean_sweep();
-	ofstream file(THE_FILES_FILE);
+	ofstream file((the_dir + THE_FILES_FILE).c_str());
+	file << time(0) << "\t";
 	file << previous_index_time << "\t" << Files.size() << "\n";
 	for (int i = 0; i < Files.size(); i++) {
 		file << Files[i].id << "\t";
@@ -140,7 +214,7 @@ void serialize()
 	file.close();
 
 	file.open(THE_INDEX_FILE);
-
+	file << time(0) << "\t";
 	for (ITR i = word_hash.begin(); i != word_hash.end(); ++i) {
 		file << i->first << "\t";
 		for (itr j = i->second.count_hash.begin(); j != i->second.count_hash.end(); ++j) {
@@ -155,9 +229,7 @@ void serialize()
 
 inline bool is_not_a_word(string word)
 {
-	if (word.length() < 2)
-		return true;
-	return false;
+	return (word.length() < 2);
 }
 
 bool is_a_stop_word(string word)
@@ -224,10 +296,8 @@ inline char decapitalize(char c)
 
 inline bool is_symbol(char c)
 {
-	if ((c <= '/') || (c >= ':' && c <= '@') 
-			|| (c >= '{' && c <= '~') || (c >= '[' && c <= '`'))
-		return true;
-	return false;
+	return ((c <= '/') || (c >= ':' && c <= '@') 
+			|| (c >= '{' && c <= '~') || (c >= '[' && c <= '`'));
 }
 
 //Add exception handling in case some files do not open.
@@ -280,9 +350,7 @@ bool is_modified(struct File *file)
 	stat(file->path.c_str(), &obj);
 	long int modified_at = obj.st_mtime;
 
-	if (modified_at > previous_index_time)
-		return true;
-	return false;
+	return (modified_at > previous_index_time);
 }
 
 void display_paths()
