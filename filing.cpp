@@ -10,7 +10,7 @@ map <string, Occurence> word_hash;
 
 string the_dir;
 
-void init()
+void init(bool index = false)
 {
 	long int modified_at;
 	int fd;
@@ -20,8 +20,7 @@ void init()
 	struct stat s;
 	ifstream file;
 	string path;
-	ofstream obj;
-
+	
 	if (stat(the_dir.c_str(), &s) != 0)
 		goto rebuild_dir;
 	
@@ -46,6 +45,8 @@ void init()
 	if (modified_at - pmt2 > ONE_MINUTE)
 		goto rebuild_files;
 	
+	if(index)
+		goto rebuild_index;
 	//Everything set.
 	deserialize();
 	return;
@@ -333,6 +334,7 @@ void mining()
 			c = decapitalize(c);
 			str += c;
 		}
+		index(str, &Files[i]);
 		//Mining the contents of the file.
 		file.open(Files[i].path.c_str());
 		str = "";
@@ -345,6 +347,7 @@ void mining()
 			c = decapitalize(c);
 			str += c;
 		}
+		index(str, &Files[i]);
 		file.close();
 	}
 	previous_index_time = time(0);

@@ -7,4 +7,4 @@ clean:
 	rm -rf *.o
 
 Main: main.cpp filing.o
-	g++ main.cpp filing.o -o main.o
+	g++ main.cpp filing.o -o choogle

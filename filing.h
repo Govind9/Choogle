@@ -61,7 +61,7 @@ void get_all_file_paths(string);
 
 void index(string, struct File*);
 
-void init();
+void init(bool);
 
 bool is_a_stop_word(string);
 

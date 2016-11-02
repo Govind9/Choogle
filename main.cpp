@@ -1,16 +1,11 @@
 #include "filing.h"
 
-int main ()
+int main (int argc, char **argv)
 {
 	init();
-	string Query;
-	while (true) {
-		cin >> Query;
-		process_query(Query);
-		cout << endl << "The Results Are:" << endl << endl;
-		show_results();
-		break;
-	}
+
+	process_query(argv[1]);
+	show_results();
 	
 	return 0;
 }
