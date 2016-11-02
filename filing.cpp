@@ -20,6 +20,7 @@ void init()
 	struct stat s;
 	ifstream file;
 	string path;
+	ofstream obj;
 
 	if (stat(the_dir.c_str(), &s) != 0)
 		goto rebuild_dir;
@@ -50,22 +51,25 @@ void init()
 	return;
 
 rebuild_dir:
-	mkdir(the_dir.c_str(), 0660);
+	cout << "Making Directory ..." << endl;
+	mkdir(the_dir.c_str(), 0777);
+	cout << "Directory Made." << endl;
 rebuild_files:
+	cout << "Making files ..." << endl;
 	path = the_dir;
 	path += THE_FILES_FILE;
-	cout << path << endl;
-	fd = open(path.c_str(), O_RDWR | O_CREAT, 0660);
+	fd = open(path.c_str(), O_RDWR | O_CREAT, 0777);
 	if (fd == -1)
 		cout << "Linux is being a bitch." << endl;
 	close(fd);
 
 	path = the_dir;
 	path += THE_INDEX_FILE;
-	fd = open(path.c_str(), O_RDWR | O_CREAT, 0660);
+	fd = open(path.c_str(), O_RDWR | O_CREAT, 0777);
 	if (fd == -1)
 		cout << "Linux is being a bitch." << endl;
 	close(fd);
+	cout << "Files Made." << endl;
 
 rebuild_index:
 	path = "/home/";
@@ -131,17 +135,18 @@ void process_query(string query)
 
 inline void clean_sweep()
 {
-	remove(THE_INDEX_FILE);
-	remove(THE_FILES_FILE);
+	remove((the_dir + THE_INDEX_FILE).c_str());
+	remove((the_dir + THE_FILES_FILE).c_str());
 }
 
 //Implement exception handling, in case the files are missing.
+//Also hadnle when data is not according to expectation i.e. handle possible file tampering.
 void deserialize()
 {
 	char c;
 	int n = 0;
 	string str;
-	ifstream file(THE_FILES_FILE);
+	ifstream file((the_dir + THE_FILES_FILE).c_str());
 	file >> pmt1;
 	file >> previous_index_time;
 	file >> n;
@@ -172,7 +177,7 @@ void deserialize()
 	}
 	file.close();
 
-	file.open(THE_INDEX_FILE);
+	file.open((the_dir + THE_INDEX_FILE).c_str());
 	file >> pmt2;
 	file.get(c);
 	while (file.get(c)) {
@@ -213,7 +218,7 @@ void serialize()
 	}
 	file.close();
 
-	file.open(THE_INDEX_FILE);
+	file.open((the_dir + THE_INDEX_FILE).c_str());
 	file << time(0) << "\t";
 	for (ITR i = word_hash.begin(); i != word_hash.end(); ++i) {
 		file << i->first << "\t";
