@@ -84,7 +84,7 @@ void search_for(string keyword)
 {
 	if (word_hash.count(keyword) != 1)
 		return;
-	
+
 	struct Occurence occ = word_hash[keyword];
 
 	for (itr i = occ.count_hash.begin(); i != occ.count_hash.end(); ++i)
@@ -131,6 +131,7 @@ void process_query(string query)
 		c = decapitalize(c);
 		str += c;
 	}
+	search_for(str);
 }
 
 inline void clean_sweep()
