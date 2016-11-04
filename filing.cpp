@@ -206,32 +206,41 @@ void deserialize()
 	file.close();
 }
 
-//Maybe simply call both of the display functions and redirect their output to the files.
+void display_paths(ostream &obj)
+{
+	obj << time(0) << "\t";
+	obj << previous_index_time << "\t" << Files.size() << "\n";
+	for (int i = 0; i < Files.size(); i++) {
+		obj << Files[i].id << "\t";
+		obj << Files[i].name << "\t";
+		obj << Files[i].path << "\n";
+	}
+}
+
 void serialize()
 {
 	clean_sweep();
 	ofstream file((the_dir + THE_FILES_FILE).c_str());
-	file << time(0) << "\t";
-	file << previous_index_time << "\t" << Files.size() << "\n";
-	for (int i = 0; i < Files.size(); i++) {
-		file << Files[i].id << "\t";
-		file << Files[i].name << "\t";
-		file << Files[i].path << "\n";
-	}
+	display_paths(file);
 	file.close();
 
 	file.open((the_dir + THE_INDEX_FILE).c_str());
-	file << time(0) << "\t";
+	display_index(file);
+	file.close();
+}
+
+void display_index(ostream &obj)
+{
+	obj << time(0) << "\t";
 	for (ITR i = word_hash.begin(); i != word_hash.end(); ++i) {
-		file << i->first << "\t";
+		obj << i->first << "\t";
 		for (itr j = i->second.count_hash.begin(); j != i->second.count_hash.end(); ++j) {
 			if (j != i->second.count_hash.begin())
-				file << ";";
-			file << j->first->id << " " << j->second;
+				obj << ";";
+			obj << j->first->id << " " << j->second;
 		}
-		file << "\n";
+		obj << "\n";
 	}
-	file.close();
 }
 
 inline bool is_not_a_word(string word)
@@ -262,17 +271,6 @@ inline string to_string(int i)
 	stringstream convert;
 	convert << i;
 	return convert.str();
-}
-
-void display_index()
-{
-	for (ITR i = word_hash.begin(); i != word_hash.end(); ++i) {
-		cout << i->first << " : ";
-		for (itr j = i->second.count_hash.begin(); j != i->second.count_hash.end(); ++j) {
-			cout << j->first->id << " " << j->second << "; ";
-		}
-		cout << endl;
-	}
 }
 
 void index(string word, struct File *file)
@@ -360,14 +358,6 @@ bool is_modified(struct File *file)
 	long int modified_at = obj.st_mtime;
 
 	return (modified_at > previous_index_time);
-}
-
-void display_paths()
-{
-	cout << Files.size() << endl;
-	for (int i = 0; i < Files.size(); i++) {
-		cout << Files[i].path << endl;
-	}
 }
 
 object_type check_type(string path)
