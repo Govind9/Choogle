@@ -53,9 +53,9 @@ void search_for(string);
 
 void process_query(string);
 
-void display_index();
+void display_index(ostream&);
 
-void display_paths();
+void display_paths(ostream&);
 
 void get_all_file_paths(string);
 
