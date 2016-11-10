@@ -10,7 +10,7 @@ map <string, Occurence> word_hash;
 
 string the_dir;
 
-void init(bool index = false)
+void init(bool index)
 {
 	long int modified_at;
 	int fd;
