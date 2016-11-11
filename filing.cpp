@@ -2,6 +2,8 @@
 
 vector <struct File> Files;
 
+vector <struct File*> rlvnt_files;
+
 long int previous_index_time = 0; //should be set at the time of indexing and stored in some file for retrieval
 
 long int pmt1, pmt2;
@@ -94,11 +96,50 @@ void search_for(string keyword)
 
 void show_results()
 {
-	for (int i = 0, j = 1; i < Files.size(); i++) {
-		if (Files[i].is_relevant) {
-			cout << j++ << "\t" << Files[i].name << "\t" << Files[i].path << endl << endl;
-		}
+	int n =0;
+	char c;
+
+	for (int i = 0; i < Files.size(); i++) {
+		if (Files[i].is_relevant)
+			rlvnt_files.push_back(&Files[i]);
 	}
+
+	if (rlvnt_files.size() == 0)
+		return;
+
+	while (true) {
+		system("clear");
+		int temp = n;
+		for (int i = 0; n < rlvnt_files.size() && i < 10; i++, n++) {
+			cout << i << "\t" << rlvnt_files[n]->name << "\t" 
+				<< rlvnt_files[n]->path << endl << endl;
+		}
+		cin >> c;
+		if (c == 'm') {
+			system("clear");
+		}
+		else if (c == 'n') {
+			n -= 20;
+			if (n < 0)
+				n = 0;
+			system("clear");
+		}
+		else if (c >= '0' && c <= '9') {
+			string command = "vim "; //replace this by xdg-open
+			int index = (((n - 1) / 10) * 10) + c - '0';
+			string path = rlvnt_files[index]->path;
+			int i;
+			for (i = path.length(); path[i] != '/'; i--);
+			for (int j = 0; j <= i; j++)
+				command += path[j];
+			command += "'";
+			for (int j = i + 1; j < path.length(); j++)
+				command += path[j];
+			command += "'";
+			system(command.c_str());
+		} 
+		n = temp;
+	}	
 }
 
 void process_query(string query)
@@ -107,8 +148,10 @@ void process_query(string query)
 	char c;
 
 	//Clean out the relevancy of the previous queries.
-	for (int i = 0; i < Files.size(); i++)
+	for (int i = 0; i < Files.size(); i++) {
 		Files[i].is_relevant = false;
+		rlvnt_files.clear();
+	}
 
 	for (int i = 0; i < query.length(); i++) {
 		c = query[i];
