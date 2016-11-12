@@ -75,12 +75,15 @@ rebuild_files:
 	cout << "Files Made." << endl;
 
 rebuild_index:
+	cout << "Indexing ..." << endl;
 	path = "/home/";
 	path += getenv("USER");
 	path += "/data";
 	get_all_file_paths(path);
 	mining();
+	cout << "Serializing data ..." << endl;
 	serialize();
+	cout << "Index refreshed." << endl;
 }
 
 void search_for(string keyword)
@@ -106,14 +109,16 @@ void show_results()
 
 	if (rlvnt_files.size() == 0)
 		return;
-
+	
 	while (true) {
 		system("clear");
+		cout << "Ch0oO0oOOooo0oo0gling" << endl << endl;
 		int temp = n;
 		for (int i = 0; n < rlvnt_files.size() && i < 10; i++, n++) {
 			cout << i << "\t" << rlvnt_files[n]->name << "\t" 
 				<< rlvnt_files[n]->path << endl << endl;
 		}
+		cout << "Enter Number to open file, m for next set of files, n for previous: ";
 		cin >> c;
 		if (c == 'm') {
 			system("clear");
@@ -125,7 +130,7 @@ void show_results()
 			system("clear");
 		}
 		else if (c >= '0' && c <= '9') {
-			string command = "vim "; //replace this by xdg-open
+			string command = "xdg-open "; //replace this by xdg-open
 			int index = (((n - 1) / 10) * 10) + c - '0';
 			string path = rlvnt_files[index]->path;
 			int i;
