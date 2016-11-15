@@ -121,16 +121,20 @@ void show_results()
 		cout << "Enter Number to open file, m for next set of files, n for previous: ";
 		cin >> c;
 		if (c == 'm') {
+			if (n >= rlvnt_files.size())
+				n = temp;
 			system("clear");
+			continue;
 		}
-		else if (c == 'n') {
+		if (c == 'n') {
 			n -= 20;
 			if (n < 0)
 				n = 0;
 			system("clear");
+			continue;
 		}
-		else if (c >= '0' && c <= '9') {
-			string command = "xdg-open "; //replace this by xdg-open
+		if (c >= '0' && c <= '9') {
+			string command = "xdg-open ";
 			int index = (((n - 1) / 10) * 10) + c - '0';
 			string path = rlvnt_files[index]->path;
 			int i;
@@ -142,7 +146,8 @@ void show_results()
 				command += path[j];
 			command += "'";
 			system(command.c_str());
-		} 
+			continue;
+		}
 		n = temp;
 	}	
 }
