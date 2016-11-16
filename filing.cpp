@@ -112,11 +112,11 @@ void show_results()
 	
 	while (true) {
 		system("clear");
-		cout << "Ch0oO0oOOooo0oo0gling" << endl << endl;
+		cout << "\033[1;32m" << "Ch0oO0oOOooo0oo0gling...." << "\033[0m" << endl << endl;
 		int temp = n;
 		for (int i = 0; n < rlvnt_files.size() && i < 10; i++, n++) {
-			cout << i << "\t" << rlvnt_files[n]->name << "\t" 
-				<< rlvnt_files[n]->path << endl << endl;
+			cout << i << "\t\033[0;31m" << rlvnt_files[n]->name << "\033[0m\t\033[0;34m" 
+			<< rlvnt_files[n]->path << "\033[0m" << endl << endl;
 		}
 		cout << "Enter Number to open file, m for next set of files, n for previous: ";
 		cin >> c;
