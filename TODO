@@ -1,5 +1,3 @@
-Allow the user to use either graphical mode in which xdg-open is used, or the terminal mode where vim is used.
-
 Changing the indexing system in order to take advantage of skipping files that have not been modified.
 	Make the index file based. Create index of each file and then merge it with the original index.
 

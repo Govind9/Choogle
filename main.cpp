@@ -2,34 +2,32 @@
 
 int main (int argc, char **argv)
 {
-	int i;
-	bool b;
-	if (argc > 2) {
-		if (argv[1][0] == '-' && argv[1][1] == 'i') {
-			i = 2;
+	string arg;
+	bool b = false;;
+	string opener = GENEREL_OPENER;
+	for (int i = 1; i < argc; i++) {
+		arg = string(argv[i]);
+		if (arg == "-i" || arg == "--index") {
 			b = true;
-			goto choogling;
+			continue;
 		}
-		i = 1;
-		b = false;
+		if (arg == "-t" || arg == "--terminal") {
+			opener = TERMINAL_OPENER;
+			continue;
+		}
+		if (arg == "-ti" || arg == "-it") {
+			opener = TERMINAL_OPENER;
+			b = true;
+			continue;
+		}
 		goto choogling;
 	}
-	
-	if (argc > 1) {
-		if (argv[1][0] == '-' && argv[1][1] == 'i')
-			goto indexing;
-		i = 1;
-		b = false;
-		goto choogling;
-	}
-
-choogling:
-	init(false);
-	process_query(argv[i]);
-	show_results(argv[i]);
+	init(b);
 	return 0;
-
-indexing:
-	init(true);
+ 
+choogling:
+	init(b);
+	process_query(arg);
+	show_results(arg, opener);
 	return 0;
 }

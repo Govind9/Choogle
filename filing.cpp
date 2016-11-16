@@ -97,7 +97,7 @@ void search_for(string keyword)
 		i->first->is_relevant = true;
 }
 
-void show_results(const char *query)
+void show_results(string query, string opener)
 {
 	int n =0;
 	char c;
@@ -122,8 +122,10 @@ void show_results(const char *query)
 			<< BLUE << rlvnt_files[n]->path << END_COLOR << endl << endl;
 		}
 		cout << "Total: " << rlvnt_files.size() << " files match" << endl;
-		cout << "Enter Number to open file, m for next set of files, n for previous: ";
+		cout << "(q: quit; n: next; p: previous; 0-9: open):\nEnter your choice: ";
 		cin >> c;
+		if (c == 'q')
+			break;
 		if (c == 'm') {
 			if (n >= rlvnt_files.size())
 				n = temp;
@@ -138,7 +140,7 @@ void show_results(const char *query)
 			continue;
 		}
 		if (c >= '0' && c <= FPW + '0' - 1) {
-			string command = "xdg-open ";
+			string command = opener;
 			int index = (((n - 1) / FPW) * FPW) + c - '0';
 			string path = rlvnt_files[index]->path;
 			int i;

@@ -16,6 +16,8 @@
 #define THE_FILES_FILE "/.Files.txt"
 #define ONE_MINUTE 60
 #define FPW 10
+#define GENEREL_OPENER "xdg-open "
+#define TERMINAL_OPENER "vi "
 
 //Color definitions
 #define BLACK		"\033[0;30m"
@@ -96,7 +98,7 @@ void process_query(string);
 
 void serialize();
 
-void show_results(const char*);
+void show_results(string, string);
 
 inline string to_string(int);
 
