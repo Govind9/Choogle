@@ -26,7 +26,7 @@ int main (int argc, char **argv)
 choogling:
 	init(false);
 	process_query(argv[i]);
-	show_results();
+	show_results(argv[i]);
 	return 0;
 
 indexing:

@@ -97,7 +97,7 @@ void search_for(string keyword)
 		i->first->is_relevant = true;
 }
 
-void show_results()
+void show_results(const char *query)
 {
 	int n =0;
 	char c;
@@ -112,13 +112,14 @@ void show_results()
 	
 	while (true) {
 		system("clear");
-		cout << "\033[1;32m" << "Ch0oO0oOOooo0oo0gling...." << "\033[0m" << endl << endl;
+		cout << GREEN << "Ch0oO0oOOooo0oo0gling.... " << END_COLOR
+			<< YELLOW_BOLD << query << END_COLOR<< endl << endl;
 		int temp = n;
 		cout << "Files numbering from " << n << " to " 
-			<< ((rlvnt_files.size() - n) < 10? rlvnt_files.size() - 1: n + 9) << endl;
-		for (int i = 0; n < rlvnt_files.size() && i < 10; i++, n++) {
-			cout << i << "\t\033[0;31m" << rlvnt_files[n]->name << "\033[0m\t\033[0;34m" 
-			<< rlvnt_files[n]->path << "\033[0m" << endl << endl;
+			<< ((rlvnt_files.size() - n) < FPW? rlvnt_files.size() - 1: n + FPW - 1) << endl;
+		for (int i = 0; n < rlvnt_files.size() && i < FPW; i++, n++) {
+			cout << i << "\t" << RED << rlvnt_files[n]->name << END_COLOR << "\t"
+			<< BLUE << rlvnt_files[n]->path << END_COLOR << endl << endl;
 		}
 		cout << "Total: " << rlvnt_files.size() << " files match" << endl;
 		cout << "Enter Number to open file, m for next set of files, n for previous: ";
@@ -130,15 +131,15 @@ void show_results()
 			continue;
 		}
 		if (c == 'n') {
-			n -= 20;
+			n -= 2 * FPW;
 			if (n < 0)
 				n = 0;
 			system("clear");
 			continue;
 		}
-		if (c >= '0' && c <= '9') {
+		if (c >= '0' && c <= FPW + '0' - 1) {
 			string command = "xdg-open ";
-			int index = (((n - 1) / 10) * 10) + c - '0';
+			int index = (((n - 1) / FPW) * FPW) + c - '0';
 			string path = rlvnt_files[index]->path;
 			int i;
 			for (i = path.length(); path[i] != '/'; i--);
