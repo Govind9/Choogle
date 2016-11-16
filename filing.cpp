@@ -114,10 +114,13 @@ void show_results()
 		system("clear");
 		cout << "\033[1;32m" << "Ch0oO0oOOooo0oo0gling...." << "\033[0m" << endl << endl;
 		int temp = n;
+		cout << "Files numbering from " << n << " to " 
+			<< ((rlvnt_files.size() - n) < 10? rlvnt_files.size() - 1: n + 9) << endl;
 		for (int i = 0; n < rlvnt_files.size() && i < 10; i++, n++) {
 			cout << i << "\t\033[0;31m" << rlvnt_files[n]->name << "\033[0m\t\033[0;34m" 
 			<< rlvnt_files[n]->path << "\033[0m" << endl << endl;
 		}
+		cout << "Total: " << rlvnt_files.size() << " files match" << endl;
 		cout << "Enter Number to open file, m for next set of files, n for previous: ";
 		cin >> c;
 		if (c == 'm') {

@@ -1,11 +1,11 @@
-Color implementation:
-	http://stackoverflow.com/questions/2616906/how-do-i-output-coloured-text-to-a-linux-terminal
+Allow the user to use either graphical mode in which xdg-open is used, or the terminal mode where vim is used.
 
 Changing the indexing system in order to take advantage of skipping files that have not been modified.
 	Make the index file based. Create index of each file and then merge it with the original index.
 
 Opening files from the output.
 	Look for a more interactive way to take input from the user regarding which files to open.
+	Add getch support.
 
 Ignore files that do not contain text in them.
 
