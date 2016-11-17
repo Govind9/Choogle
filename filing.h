@@ -71,10 +71,6 @@ inline char decapitalize(char);
 
 void deserialize();
 
-void search_for(string);
-
-void process_query(string);
-
 void display_index(ostream&);
 
 void display_paths(ostream&);
@@ -98,6 +94,8 @@ inline bool is_symbol(char);
 void mining();
 
 void process_query(string);
+
+void search_for(string);
 
 void serialize();
 

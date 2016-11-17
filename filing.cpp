@@ -334,6 +334,10 @@ inline bool is_not_a_word(string word)
 bool is_a_stop_word(string word)
 {
 	ifstream file("stopword.txt");
+	if (file.fail()) {
+		cout << RED_BOLD << "Couldn't open stopword.txt file\n" << END_COLOR;
+		exit(EXIT_FAILURE);
+	}
 	char c;
 	string str = "";
 	while (file.get(c)) {
