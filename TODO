@@ -1,3 +1,4 @@
+Add exception handling, speciall if files don't open. Or when the contents of files while deserializing is not as expected.
 Changing the indexing system in order to take advantage of skipping files that have not been modified.
 	Make the index file based. Create index of each file and then merge it with the original index.
 

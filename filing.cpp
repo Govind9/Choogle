@@ -361,7 +361,13 @@ inline char decapitalize(char c)
 inline bool is_symbol(char c)
 {
 	return ((c <= '/') || (c >= ':' && c <= '@') 
-			|| (c >= '{' && c <= '~') || (c >= '[' && c <= '`'));
+			|| (c >= '[' && c <= '`') || (c >= '{' && c <= 127));
+}
+
+inline bool is_non_ascii(char c)
+{
+	return c == 0;
+	//return (c <= 0 || c > 127);
 }
 
 //Add exception handling in case some files do not open.
@@ -372,7 +378,7 @@ void mining()
 	string str;
 	
 	for (int i = 0; i < Files.size(); i++) {
-		if (Files[i].is_modified)
+		//if (Files[i].is_modified)
 			//continue;
 		/*
 		  There are some deep issues here hence I am abandoning this feature for now.
@@ -396,6 +402,9 @@ void mining()
 		file.open(Files[i].path.c_str());
 		str = "";
 		while (file.get(c)) {
+			if (is_non_ascii(c)) {
+				break;
+			}
 			if (is_symbol(c)) {
 				index(str, &Files[i]);
 				str = "";

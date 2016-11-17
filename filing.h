@@ -88,9 +88,11 @@ bool is_a_stop_word(string);
 
 bool is_modified(struct File*);
 
+inline bool is_non_ascii(char);
+
 inline bool is_not_a_word(string);
 
-inline bool is_symbol(char c);
+inline bool is_symbol(char);
 
 void mining();
 
