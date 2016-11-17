@@ -35,6 +35,8 @@ void init(bool index)
 
 	//Read Previous modification times for both files:
 	file.open((the_dir + THE_FILES_FILE).c_str());
+	if (file.fail())
+		goto fail;
 	file >> pmt1;
 	file.close();
 	if (modified_at - pmt1 > ONE_MINUTE)
@@ -42,6 +44,8 @@ void init(bool index)
 	
 	modified_at = s.st_mtime;
 	file.open((the_dir + THE_INDEX_FILE).c_str());
+	if (file.fail())
+		goto fail;
 	file >> pmt2;
 	file.close();
 	if (modified_at - pmt2 > ONE_MINUTE)
@@ -84,6 +88,11 @@ rebuild_index:
 	cout << "Serializing data ..." << endl;
 	serialize();
 	cout << "Index refreshed." << endl;
+	return;
+
+fail:
+	cout << RED_BOLD << "Couldn't Open File(s)\n" << END_COLOR;
+	exit(EXIT_FAILURE);
 }
 
 void search_for(string keyword)
@@ -207,6 +216,8 @@ void deserialize()
 	int n = 0;
 	string str;
 	ifstream file((the_dir + THE_FILES_FILE).c_str());
+	if (file.fail())
+		goto fail;
 	file >> pmt1;
 	file >> previous_index_time;
 	file >> n;
@@ -238,6 +249,8 @@ void deserialize()
 	file.close();
 
 	file.open((the_dir + THE_INDEX_FILE).c_str());
+	if (file.fail())
+		goto fail;
 	file >> pmt2;
 	file.get(c);
 	while (file.get(c)) {
@@ -262,6 +275,10 @@ void deserialize()
 		word_hash[word] = occ;
 	}
 	file.close();
+	return;
+fail:
+	cout << RED_BOLD << "Couldn't open files for deserialization\n" << END_COLOR;
+	exit(EXIT_FAILURE);
 }
 
 void display_paths(ostream &obj)
@@ -279,12 +296,20 @@ void serialize()
 {
 	clean_sweep();
 	ofstream file((the_dir + THE_FILES_FILE).c_str());
+	if (file.fail())
+		goto fail;
 	display_paths(file);
 	file.close();
 
 	file.open((the_dir + THE_INDEX_FILE).c_str());
+	if (file.fail())
+		goto fail;
 	display_index(file);
 	file.close();
+	return;
+fail:
+	cout << RED_BOLD << "Couldn't open files for serialization\n" << END_COLOR;
+	exit(EXIT_FAILURE);
 }
 
 void display_index(ostream &obj)
@@ -376,11 +401,12 @@ void mining()
 	char c;
 	string str;
 	struct winsize w;
-	double progress = 1.0/double(Files.size());
+	double progress = 0.0;
 	int barwidth;
 	int pos;
 	
 	for (int i = 0; i < Files.size(); i++) {
+		progress += (1.0)/double(Files.size());
 		ioctl(STDOUT_FILENO, TIOCGWINSZ, &w);
 		barwidth = w.ws_col - 8;
 		cout << GREEN_BOLD << "[" << END_COLOR;
@@ -417,6 +443,8 @@ void mining()
 		index(str, &Files[i]);
 		//Mining the contents of the file.
 		file.open(Files[i].path.c_str());
+		if (file.fail())
+			continue;
 		str = "";
 		while (file.get(c)) {
 			if (is_non_ascii(c)) {
@@ -432,7 +460,6 @@ void mining()
 		}
 		index(str, &Files[i]);
 		file.close();
-		progress += (1.0)/double(Files.size());
 	}
 	cout << endl;
 	previous_index_time = time(0);
