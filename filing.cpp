@@ -112,7 +112,7 @@ void show_results(string query, string opener)
 	
 	while (true) {
 		system("clear");
-		cout << GREEN << "Ch0oO0oOOooo0oo0gling.... " << END_COLOR
+		cout << GREEN << "ChOo0oOo0oOo0oOo0ogling.... " << END_COLOR
 			<< YELLOW_BOLD << query << END_COLOR<< endl << endl;
 		int temp = n;
 		cout << "Files numbering from " << n << " to " 
@@ -152,7 +152,6 @@ void show_results(string query, string opener)
 				command += path[j];
 			command += "'";
 			system(command.c_str());
-			continue;
 		}
 		n = temp;
 	}	
@@ -376,8 +375,26 @@ void mining()
 	ifstream file;
 	char c;
 	string str;
+	struct winsize w;
+	double progress = 1.0/double(Files.size());
+	int barwidth;
+	int pos;
 	
 	for (int i = 0; i < Files.size(); i++) {
+		ioctl(STDOUT_FILENO, TIOCGWINSZ, &w);
+		barwidth = w.ws_col - 8;
+		cout << GREEN_BOLD << "[" << END_COLOR;
+		pos = barwidth * progress;
+		for (int j = 0; j < barwidth; j++) {
+			if (j < pos)
+				cout << YELLOW << "=" << END_COLOR;
+			else if (j == pos)	
+				cout << RED << ">" << END_COLOR;
+			else
+				cout << " ";
+		}
+		cout << GREEN_BOLD << "] " << END_COLOR << int(progress * 100.0) << "%\r";
+		cout.flush();
 		//if (Files[i].is_modified)
 			//continue;
 		/*
@@ -415,7 +432,9 @@ void mining()
 		}
 		index(str, &Files[i]);
 		file.close();
+		progress += (1.0)/double(Files.size());
 	}
+	cout << endl;
 	previous_index_time = time(0);
 }
 
