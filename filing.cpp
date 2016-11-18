@@ -510,7 +510,7 @@ void get_all_file_paths(string begin)
 {
 	DIR *root;
 	struct dirent *temp;
-	int i = -1;
+	static int i = -1;
 
 	//Get the last stored indexing time.
 	ifstream f(THE_FILES_FILE);
