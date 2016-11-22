@@ -331,6 +331,8 @@ inline bool is_not_a_word(string word)
 	return (word.length() < 2);
 }
 
+//Maybe not open the file everytime a word isto be processed. I think will save a lot of time
+//Maybe open the file once and store it in a Map or something
 bool is_a_stop_word(string word)
 {
 	ifstream file("stopword.txt");
