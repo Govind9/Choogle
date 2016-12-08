@@ -172,10 +172,9 @@ void process_query(string query)
 	char c;
 
 	//Clean out the relevancy of the previous queries.
-	for (int i = 0; i < Files.size(); i++) {
+	for (int i = 0; i < Files.size(); i++)
 		Files[i].is_relevant = false;
-		rlvnt_files.clear();
-	}
+	rlvnt_files.clear();
 
 	for (int i = 0; i < query.length(); i++) {
 		c = query[i];
